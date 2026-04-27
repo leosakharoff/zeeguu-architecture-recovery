@@ -1,0 +1,6314 @@
+{
+  "files_scanned": 424,
+  "total_dependencies": 1577,
+  "dependencies": [
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.config.loader"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.config"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.api.utils.rate_limiter"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.badges.listeners"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.friends.listeners"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.api.utils.security_checks"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.tokenization"
+    },
+    {
+      "source": "zeeguu.api.custom_fmd_graphs",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.model.unique_code"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.api.endpoints.sessions"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.account_management.user_account_deletion"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.account_management.user_account_creation"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.account_management.user_account_creation"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.emailer.email_confirmation"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.emailer.email_confirmation"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.emailer.email_confirmation"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.core.emailer.password_reset"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.accounts",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.core.user_activity_hooks.article_interaction_hooks"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.core.behavioral_modeling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.activity_tracking",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.article_topic_user_feedback"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.personal_copy"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.llm_services.simplification_service"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.content_retriever"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.article_tokenization_cache"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.content_retriever"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.content_retriever.article_downloader"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.language.fk_to_cefr"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.llm_services.simplification_and_classification"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.content_retriever.crawler_exceptions"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.language.fk_to_cefr"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_cefr_recompute",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_cefr_recompute",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_cefr_recompute",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_cefr_recompute",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_cefr_recompute",
+      "target": "zeeguu.core.language.ml_cefr_classifier"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_cefr_recompute",
+      "target": "zeeguu.core.llm_services.simplification_and_classification"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_cefr_recompute",
+      "target": "zeeguu.core.util.compute_fk_word_count"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_cefr_recompute",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_simplification",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_simplification",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_simplification",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_simplification",
+      "target": "zeeguu.core.language.fk_to_cefr"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.model.personal_copy"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.content_retriever.crawler_exceptions"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.llm_services.simplification_and_classification"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.llm_services.simplification_service"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.api.endpoints.article_upload",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.api.utils.background"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.core.audio_lessons.daily_lesson_generator"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.core.audio_lessons.script_generator"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.core.audio_lessons.suggestion_validator"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.core.audio_lessons.word_selector"
+    },
+    {
+      "source": "zeeguu.api.endpoints.audio_lessons",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.core.model.badge_category"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.core.model.badge"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.core.model.user_badge"
+    },
+    {
+      "source": "zeeguu.api.endpoints.badges",
+      "target": "zeeguu.core.model.user_badge_progress"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.bookmark_user_preference"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.example_sentence_context"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.api.utils.parse_json_boolean"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.word_scheduling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.user_word_interaction_history"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.bookmark_context"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.bookmark_context"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.user_word_interaction_history"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.text"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.tokenization.word_position_finder"
+    },
+    {
+      "source": "zeeguu.api.endpoints.bookmarks_and_words",
+      "target": "zeeguu.core.bookmark_quality.fit_for_study"
+    },
+    {
+      "source": "zeeguu.api.endpoints.browsing_sessions",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.browsing_sessions",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.cefr_assessment",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.cefr_assessment",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.cefr_assessment",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.crawl_stats",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.crawl_stats",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.crawl_stats",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.api.endpoints.crawl_stats",
+      "target": "zeeguu.core.content_retriever.article_downloader"
+    },
+    {
+      "source": "zeeguu.api.endpoints.crawl_stats",
+      "target": "zeeguu.core.content_retriever.article_downloader"
+    },
+    {
+      "source": "zeeguu.api.endpoints.daily_streak",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.daily_streak",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.daily_streak",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.api.endpoints.daily_streak",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercise_sessions",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercise_sessions",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercise_sessions",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercise_sessions",
+      "target": "zeeguu.core.emailer.user_activity"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercise_sessions",
+      "target": "zeeguu.core.sql.learner.exercises_history"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.core.exercises.similar_words"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.api.utils.parse_json_boolean"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.exercises",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.feature_toggles",
+      "target": "zeeguu.api.endpoints"
+    },
+    {
+      "source": "zeeguu.api.endpoints.feature_toggles",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.feature_toggles",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.feature_toggles",
+      "target": "zeeguu.core.user_feature_toggles"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.core.friends.friend_streak"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.core.model.friend_request"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.core.model.user_avatar"
+    },
+    {
+      "source": "zeeguu.api.endpoints.friends",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.llm_services"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.llm_services.llm_service"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.model.ai_generator"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.model.bookmark_user_preference"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.model.example_sentence"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.tokenization.word_position_finder"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.generated_examples",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.helpers.activity_sessions",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.helpers.activity_sessions",
+      "target": "zeeguu.core.model.user_language"
+    },
+    {
+      "source": "zeeguu.api.endpoints.leaderboards",
+      "target": "zeeguu.core.leaderboards.leaderboards"
+    },
+    {
+      "source": "zeeguu.api.endpoints.leaderboards",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.leaderboards",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.leaderboards",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.leaderboards",
+      "target": "zeeguu.core.leaderboards.leaderboards"
+    },
+    {
+      "source": "zeeguu.api.endpoints.leaderboards",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.leaderboards",
+      "target": "zeeguu.core.model.teacher_cohort_map"
+    },
+    {
+      "source": "zeeguu.api.endpoints.listening_sessions",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.listening_sessions",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.nlp",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.nlp",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.nlp",
+      "target": "zeeguu.core.nlp_pipeline"
+    },
+    {
+      "source": "zeeguu.api.endpoints.nlp",
+      "target": "zeeguu.core.nlp_pipeline"
+    },
+    {
+      "source": "zeeguu.api.endpoints.nlp",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.api.endpoints.nlp",
+      "target": "zeeguu.core.tokenization"
+    },
+    {
+      "source": "zeeguu.api.endpoints.own_texts",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.own_texts",
+      "target": "zeeguu.core.model.personal_copy"
+    },
+    {
+      "source": "zeeguu.api.endpoints.own_texts",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.own_texts",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.own_texts",
+      "target": "zeeguu.api.endpoints.article_cefr_recompute"
+    },
+    {
+      "source": "zeeguu.api.endpoints.own_texts",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.reading_sessions",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.reading_sessions",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.core.model.search"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.core.model.search_filter"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.core.model.search_subscription"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.core.content_recommender"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.search",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.user_reading_session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.user_exercise_session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.user_browsing_session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.exercise"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.exercise_outcome"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.user_activitiy_data"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.daily_audio_lesson"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.model.user_listening_session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.session_history",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.api.endpoints.sessions",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.sessions",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.sessions",
+      "target": "zeeguu.api.utils.session_helpers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.sessions",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.sessions",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.speech",
+      "target": "zeeguu.api.endpoints"
+    },
+    {
+      "source": "zeeguu.api.endpoints.speech",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.speech",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.speech",
+      "target": "zeeguu.config"
+    },
+    {
+      "source": "zeeguu.api.endpoints.speech",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.speech",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.speech",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.student",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.student",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.student",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.system_languages",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.system_languages",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard._common_api_parameters",
+      "target": "zeeguu.api.endpoints.teacher_dashboard._permissions"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard._common_api_parameters",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard._common_api_parameters",
+      "target": "zeeguu.core.model.cohort"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard._common_api_parameters",
+      "target": "zeeguu.core.sql.query_building"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard._permissions",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard._permissions",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.article_management",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.article_management",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.article_management",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.article_management",
+      "target": "zeeguu.core.model.cohort_article_map"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.article_management",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.article_management",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.article_management",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.cohorts",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.cohorts",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.cohorts",
+      "target": "zeeguu.core.model.user_reading_session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.cohorts",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.cohorts",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.cohorts",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.cohorts",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.general",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.general",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.general",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.general",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.general",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.helpers",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.helpers",
+      "target": "zeeguu.core.sql.teacher.teachers_for_cohort"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.helpers",
+      "target": "zeeguu.core.user_statistics.exercise_corectness"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.helpers",
+      "target": "zeeguu.core.user_statistics.exercise_sessions"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.helpers",
+      "target": "zeeguu.core.user_statistics.reading_sessions"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.helpers",
+      "target": "zeeguu.core.model.user_cohort_map"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_exercises",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_exercises",
+      "target": "zeeguu.core.sql.learner.exercises_history"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_exercises",
+      "target": "zeeguu.core.user_statistics.exercise_corectness"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_exercises",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_exercises",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_overviews",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_overviews",
+      "target": "zeeguu.core.user_statistics.student_overview"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_overviews",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_overviews",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_readings",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_readings",
+      "target": "zeeguu.core.user_statistics.reading_sessions"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_readings",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_readings",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_words",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_words",
+      "target": "zeeguu.core.sql.learner.words"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_words",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.teacher_dashboard.student_words",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.topics",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.topics",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.topics",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.topics",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.topics",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.api.utils.parse_json_boolean"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.translation_services.translator"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.crowd_translations"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.model.bookmark_context"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.model.text"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.translation_services.translator"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.bookmark_operations.update_bookmark"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.translation",
+      "target": "zeeguu.core.bookmark_operations.update_bookmark"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.api.endpoints.feature_toggles"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.friends.friend_streak"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.model.feedback_component"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.model.user_avatar"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.model.user_feedback"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_article",
+      "target": "zeeguu.core.model.article_difficulty_feedback"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_article",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_article",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_article",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_article",
+      "target": "zeeguu.core.content_retriever"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_articles",
+      "target": "zeeguu.core.content_recommender"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_articles",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_articles",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_articles",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_articles",
+      "target": "zeeguu.core.model.cohort_article_map"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_languages",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_languages",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_languages",
+      "target": "zeeguu.core.model.user_language"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_languages",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_languages",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_languages",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_notifications",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_notifications",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_notifications",
+      "target": "zeeguu.core.model.user_notification"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_notifications",
+      "target": "zeeguu.core.model.notification"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_notifications",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_notifications",
+      "target": "zeeguu.core.content_recommender.elastic_recommender"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_notifications",
+      "target": "zeeguu.core.model.session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_preferences",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_preferences",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_preferences",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_statistics",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_statistics",
+      "target": "zeeguu.core.user_statistics.activity"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_statistics",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_statistics",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.cohort"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.daily_audio_lesson"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.exercise"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.user_browsing_session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.user_cohort_map"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.user_exercise_session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.user_reading_session"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.user_activitiy_data"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_stats",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_video",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_video",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_video",
+      "target": "zeeguu.api.utils.json_result"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_watching_session",
+      "target": "zeeguu.api.endpoints.helpers.activity_sessions"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_watching_session",
+      "target": "zeeguu.api.utils"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_watching_session",
+      "target": "zeeguu.api.utils.route_wrappers"
+    },
+    {
+      "source": "zeeguu.api.endpoints.user_watching_session",
+      "target": "zeeguu.core.model.user_watching_session"
+    },
+    {
+      "source": "zeeguu.api.test.conftest",
+      "target": "zeeguu.api.app"
+    },
+    {
+      "source": "zeeguu.api.test.conftest",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.test.conftest",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.api.test.conftest",
+      "target": "zeeguu.core.test.conftest"
+    },
+    {
+      "source": "zeeguu.api.test.conftest",
+      "target": "zeeguu.core.test._session_data"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.api.app"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.test.fixtures"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.fixtures",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.test.test_account_creation",
+      "target": "zeeguu.api.test.fixtures"
+    },
+    {
+      "source": "zeeguu.api.test.test_account_creation",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.test.test_account_creation",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_badges",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_badges",
+      "target": "zeeguu.core.model.badge_category"
+    },
+    {
+      "source": "zeeguu.api.test.test_badges",
+      "target": "zeeguu.core.model.badge"
+    },
+    {
+      "source": "zeeguu.api.test.test_bookmark_positions",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_bookmark_positions",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.api.test.test_bookmark_positions",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.api.test.test_bookmarks",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.api.test.test_bookmarks",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.api.test.test_bookmarks",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.api.test.test_bookmarks",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.api.test.test_bookmarks",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.api.test.test_browsing_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_endpoint_names",
+      "target": "zeeguu.api.test.fixtures"
+    },
+    {
+      "source": "zeeguu.api.test.test_exercise_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_exercise_session",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.api.test.test_exercise_session",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.api.test.test_friends",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_friends",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.api.test.test_friends",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_friends",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_user_article",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.api.test.test_username",
+      "target": "zeeguu.api.test.fixtures"
+    },
+    {
+      "source": "zeeguu.api.test.test_username",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.test.test_username",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.utils.background",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.utils.caching_decorator",
+      "target": "zeeguu.core.utils.caching"
+    },
+    {
+      "source": "zeeguu.api.utils.route_wrappers",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.utils.route_wrappers",
+      "target": "zeeguu.core.model.session"
+    },
+    {
+      "source": "zeeguu.api.utils.route_wrappers",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.api.utils.route_wrappers",
+      "target": "zeeguu.api.utils.abort_handling"
+    },
+    {
+      "source": "zeeguu.api.utils.route_wrappers",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.utils.route_wrappers",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.api.utils.route_wrappers",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.api.utils.route_wrappers",
+      "target": "zeeguu.api.utils.session_helpers"
+    },
+    {
+      "source": "zeeguu.api.utils.security_checks",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.api.utils.session_helpers",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.cl",
+      "target": "zeeguu.api.app"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_creation",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_creation",
+      "target": "zeeguu.core.model.user_avatar"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_creation",
+      "target": "zeeguu.core.emailer.user_activity"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_creation",
+      "target": "zeeguu.core.emailer.email_confirmation"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_creation",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_creation",
+      "target": "zeeguu.core.model.unique_code"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_creation",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core.model.starred_article"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core.model.exercise"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core.model.daily_audio_lesson"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core.model.audio_lesson_generation_progress"
+    },
+    {
+      "source": "zeeguu.core.account_management.user_account_deletion",
+      "target": "zeeguu.core.model.user_word_interaction_history"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.config"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.audio_lessons.lesson_builder"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.audio_lessons.script_generator"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.audio_lessons.voice_synthesizer"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.audio_lessons.word_selector"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.model.audio_lesson_dialogue"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.audio_lessons.voice_config"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.model.exercise_source"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.model.exercise_outcome"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.daily_lesson_generator",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.lesson_builder",
+      "target": "zeeguu.config"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.lesson_builder",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.lesson_builder",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.script_generator",
+      "target": "zeeguu.core.llm_services"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.script_generator",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.script_generator",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.suggestion_validator",
+      "target": "zeeguu.core.llm_services"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.suggestion_validator",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.voice_synthesizer",
+      "target": "zeeguu.config"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.voice_synthesizer",
+      "target": "zeeguu.core.audio_lessons.voice_config"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.voice_synthesizer",
+      "target": "zeeguu.core.audio_lessons.azure_voice_synthesizer"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.voice_synthesizer",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.word_selector",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.word_selector",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.word_selector",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.word_selector",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.word_selector",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.audio_lessons.word_selector",
+      "target": "zeeguu.core.model.user_preference"
+    },
+    {
+      "source": "zeeguu.core.badges.badge_progress",
+      "target": "zeeguu.core.model.badge"
+    },
+    {
+      "source": "zeeguu.core.badges.badge_progress",
+      "target": "zeeguu.core.model.badge_category"
+    },
+    {
+      "source": "zeeguu.core.badges.badge_progress",
+      "target": "zeeguu.core.model.user_badge"
+    },
+    {
+      "source": "zeeguu.core.badges.badge_progress",
+      "target": "zeeguu.core.model.user_badge_progress"
+    },
+    {
+      "source": "zeeguu.core.badges.badge_progress",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.badges.listeners",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.badges.listeners",
+      "target": "zeeguu.core.badges.badge_progress"
+    },
+    {
+      "source": "zeeguu.core.badges.listeners",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.badges.listeners",
+      "target": "zeeguu.core.model.badge_category"
+    },
+    {
+      "source": "zeeguu.core.badges.listeners",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.core.behavioral_modeling",
+      "target": "zeeguu.core.behavioral_modeling.scroll_last_reading_percentage"
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations.update_bookmark",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations.update_bookmark",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations.update_bookmark",
+      "target": "zeeguu.core.model.bookmark_user_preference"
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations.update_bookmark",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations.update_bookmark",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations.update_bookmark",
+      "target": "zeeguu.core.tokenization.word_position_finder"
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations.update_bookmark",
+      "target": "zeeguu.core.model.user_word_interaction_history"
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations.update_bookmark",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.bookmark_quality.fit_for_study",
+      "target": "zeeguu.core.bookmark_quality"
+    },
+    {
+      "source": "zeeguu.core.bookmark_quality.fit_for_study",
+      "target": "zeeguu.core.model.bookmark_user_preference"
+    },
+    {
+      "source": "zeeguu.core.bookmark_quality.negative_qualities",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.bookmark_quality.negative_qualities",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.bookmark_quality.negative_qualities",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.bookmark_quality.positive_qualities",
+      "target": "zeeguu.core.bookmark_quality.negative_qualities"
+    },
+    {
+      "source": "zeeguu.core.content_cleaning",
+      "target": "zeeguu.core.content_cleaning.content_cleaner"
+    },
+    {
+      "source": "zeeguu.core.content_cleaning",
+      "target": "zeeguu.core.content_cleaning.unicode_normalization"
+    },
+    {
+      "source": "zeeguu.core.content_cleaning.content_cleaner",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.content_cleaning.content_cleaner",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.content_quality.quality_filter",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.content_quality.quality_filter",
+      "target": "zeeguu.core.ml_models"
+    },
+    {
+      "source": "zeeguu.core.content_recommender.elastic_recommender",
+      "target": "zeeguu.core.elastic.basic_ops"
+    },
+    {
+      "source": "zeeguu.core.content_recommender.elastic_recommender",
+      "target": "zeeguu.core.elastic.elastic_query_builder"
+    },
+    {
+      "source": "zeeguu.core.content_recommender.elastic_recommender",
+      "target": "zeeguu.core.elastic.settings"
+    },
+    {
+      "source": "zeeguu.core.content_recommender.elastic_recommender",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.content_recommender.elastic_recommender",
+      "target": "zeeguu.core.model.user_activitiy_data"
+    },
+    {
+      "source": "zeeguu.core.content_recommender.elastic_recommender",
+      "target": "zeeguu.core.util.timer_logging_decorator"
+    },
+    {
+      "source": "zeeguu.core.content_recommender.elastic_recommender",
+      "target": "zeeguu.core.model.cohort_article_map"
+    },
+    {
+      "source": "zeeguu.core.content_recommender.elastic_recommender",
+      "target": "zeeguu.core.elastic.elastic_query_builder"
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core.content_cleaning"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.content_retriever.crawler_exceptions"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.semantic_search"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.content_quality.quality_filter"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.content_cleaning"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.elastic.indexing"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.content_retriever"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.llm_services.simplification_and_classification"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.content_quality.advertorial_detection"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.content_quality.disturbing_content_detection"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model.article_broken_code_map"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model.article_tokenization_cache"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model.article_broken_code_map"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.article_downloader",
+      "target": "zeeguu.core.model.article_classification"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.parse_with_readability_server",
+      "target": "zeeguu.core.content_retriever.crawler_exceptions"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.parse_with_readability_server",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.video_dowloader",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.video_dowloader",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.content_retriever.video_dowloader",
+      "target": "zeeguu.core.youtube_api.youtube_api"
+    },
+    {
+      "source": "zeeguu.core.crowd_translations",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.crowd_translations",
+      "target": "zeeguu.core.model.bookmark_context"
+    },
+    {
+      "source": "zeeguu.core.elastic.basic_ops",
+      "target": "zeeguu.core.elastic.settings"
+    },
+    {
+      "source": "zeeguu.core.elastic.elastic_query_builder",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.elastic.elastic_query_builder",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.model.article_url_keyword_map"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.model.article_classification"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.elastic.settings"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.elastic.basic_ops"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.semantic_vector_api"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.model.video_topic_map"
+    },
+    {
+      "source": "zeeguu.core.elastic.indexing",
+      "target": "zeeguu.core.model.video"
+    },
+    {
+      "source": "zeeguu.core.emailer.email_confirmation",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.core.emailer.password_reset",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.core.emailer.user_activity",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.emailer.user_activity",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.core.emailer.user_activity",
+      "target": "zeeguu.core.model.user_activitiy_data"
+    },
+    {
+      "source": "zeeguu.core.emailer.user_activity",
+      "target": "zeeguu.core.sql.learner.exercises_history"
+    },
+    {
+      "source": "zeeguu.core.emailer.zeeguu_mailer",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.core.emailer.zeeguu_mailer",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.emailer.zeeguu_mailer",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.core.emailer.zeeguu_mailer",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.exercises.similar_words",
+      "target": "zeeguu.core.word_stats"
+    },
+    {
+      "source": "zeeguu.core.exercises.similar_words",
+      "target": "zeeguu.core.word_filter"
+    },
+    {
+      "source": "zeeguu.core.exercises.similar_words",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.feed_handler.feed_handler",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.core.feed_handler.newspaperfeed",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.feed_handler.rssfeed",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.friends.friend_streak",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.friends.friend_streak",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.friends.friend_streak",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.core.friends.listeners",
+      "target": "zeeguu.core.friends.friend_streak"
+    },
+    {
+      "source": "zeeguu.core.friends.listeners",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.friends.listeners",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.core.language.difficulty_estimator_factory",
+      "target": "zeeguu.core.language.difficulty_estimator_strategy"
+    },
+    {
+      "source": "zeeguu.core.language.difficulty_estimator_factory",
+      "target": "zeeguu.core.language.strategies.default_difficulty_estimator"
+    },
+    {
+      "source": "zeeguu.core.language.difficulty_estimator_factory",
+      "target": "zeeguu.core.language.strategies.flesch_kincaid_difficulty_estimator"
+    },
+    {
+      "source": "zeeguu.core.language.difficulty_estimator_strategy",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.language.ml_cefr_classifier",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.default_difficulty_estimator",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.default_difficulty_estimator",
+      "target": "zeeguu.core.language.difficulty_estimator_strategy"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.flesch_kincaid_difficulty_estimator",
+      "target": "zeeguu.core.language.difficulty_estimator_strategy"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.flesch_kincaid_difficulty_estimator",
+      "target": "zeeguu.core.util.text"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.flesch_kincaid_difficulty_estimator",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.frequency_difficulty_estimator",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.frequency_difficulty_estimator",
+      "target": "zeeguu.core.language.difficulty_estimator_strategy"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.frequency_difficulty_estimator",
+      "target": "zeeguu.core.util.text"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.word_rank_difficulty_estimator",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.language.strategies.word_rank_difficulty_estimator",
+      "target": "zeeguu.core.language.difficulty_estimator_strategy"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.user_avatar"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.user_exercise_session"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.user_listening_session"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.user_reading_session"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.exercise"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.exercise_outcome"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.leaderboards.leaderboards",
+      "target": "zeeguu.core.model.user_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.llm_services.anthropic_service",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.deepseek_service",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.grammar_correction_service",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.llm_service",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.prompts.article_simplification",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.llm_services.prompts.grammar_correction",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.llm_services.simplification_service"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.llm_services.simplification_service"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.llm_services.simplification_service"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.language.fk_to_cefr"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.elastic.indexing"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.model.grammar_correction_log"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_and_classification",
+      "target": "zeeguu.core.model.ai_generator"
+    },
+    {
+      "source": "zeeguu.core.llm_services.simplification_service",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.translation_validator",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.translation_validator",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.model.validation_log"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.model.validation_log"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.bookmark_operations.update_bookmark"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.llm_services.translation_validator"
+    },
+    {
+      "source": "zeeguu.core.llm_services.validation_service",
+      "target": "zeeguu.core.llm_services.translation_validator"
+    },
+    {
+      "source": "zeeguu.core.ml_models.utils",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.ai_generator",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.language.ml_cefr_classifier"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.ai_generator"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_url_keyword_map"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.feed"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.content_retriever"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.content_quality.quality_filter"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_fragment"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_tokenization_cache"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_fragment"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_tokenization_cache"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.tokenization"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.tokenization.zeeguu_tokenizer"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.mwe"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_fragment"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.mwe"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.mwe.enricher"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_tokenization_cache"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.mwe"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.article_broken_code_map"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.elastic.indexing"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.content_cleaning"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.content_retriever.article_downloader"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.llm_services.simplification_and_classification"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.content_retriever"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.mwe.llm_mwe_detector"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.mwe.enricher"
+    },
+    {
+      "source": "zeeguu.core.model.article",
+      "target": "zeeguu.core.llm_services.simplification_and_classification"
+    },
+    {
+      "source": "zeeguu.core.model.article_broken_code_map",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.article_broken_code_map",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_cefr_assessment",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_classification",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.article_classification",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_difficulty_feedback",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.article_difficulty_feedback",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article_difficulty_feedback",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_fragment",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_fragment",
+      "target": "zeeguu.core.model.new_text"
+    },
+    {
+      "source": "zeeguu.core.model.article_fragment",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.article_fragment",
+      "target": "zeeguu.core.model.new_text"
+    },
+    {
+      "source": "zeeguu.core.model.article_fragment_context",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_fragment_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.article_fragment_context",
+      "target": "zeeguu.core.model.article_fragment"
+    },
+    {
+      "source": "zeeguu.core.model.article_fragment_context",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.article_summary_context",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.article_summary_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.article_summary_context",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_summary_context",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.article_title_context",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.article_title_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.article_title_context",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_title_context",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.article_tokenization_cache",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_tokenization_cache",
+      "target": "zeeguu.core.mwe"
+    },
+    {
+      "source": "zeeguu.core.model.article_topic_map",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_topic_user_feedback",
+      "target": "zeeguu.core.model.topic"
+    },
+    {
+      "source": "zeeguu.core.model.article_topic_user_feedback",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.article_topic_user_feedback",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.article_topic_user_feedback",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_upload",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.article_upload",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.article_upload",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.article_upload",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.article_url_keyword_map",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_dialogue",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_dialogue",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_dialogue",
+      "target": "zeeguu.core.model.daily_audio_lesson_segment"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_dialogue",
+      "target": "zeeguu.core.model.daily_audio_lesson"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_generation_progress",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_generation_progress",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_meaning",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_meaning",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.model.audio_lesson_meaning",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.badge",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.badge_category",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.bookmark_context"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.text"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.video"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.bookmark_user_preference"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.user_word_interaction_history"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.sorted_exercise_log"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.article_title_context"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.article_fragment_context"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.article_summary_context"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.video_title_context"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.model.video_caption_context"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.core.mwe"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.model.new_text"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.mwe"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.util"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.model.new_text"
+    },
+    {
+      "source": "zeeguu.core.model.bookmark_context",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.caption",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.caption",
+      "target": "zeeguu.core.model.new_text"
+    },
+    {
+      "source": "zeeguu.core.model.cohort",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.cohort",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.cohort",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.cohort",
+      "target": "zeeguu.core.model.user_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.model.cohort",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.cohort",
+      "target": "zeeguu.core.model.user_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.model.cohort",
+      "target": "zeeguu.core.model.teacher_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.model.cohort_article_map",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.cohort_article_map",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.cohort_article_map",
+      "target": "zeeguu.core.model.cohort"
+    },
+    {
+      "source": "zeeguu.core.model.cohort_article_map",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.context_identifier",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.context_identifier",
+      "target": "zeeguu.core.model.article_fragment"
+    },
+    {
+      "source": "zeeguu.core.model.context_identifier",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.context_identifier",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.context_identifier",
+      "target": "zeeguu.core.model.video"
+    },
+    {
+      "source": "zeeguu.core.model.context_identifier",
+      "target": "zeeguu.core.model.caption"
+    },
+    {
+      "source": "zeeguu.core.model.context_identifier",
+      "target": "zeeguu.core.model.example_sentence"
+    },
+    {
+      "source": "zeeguu.core.model.context_type",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.context_type",
+      "target": "zeeguu.core.model.article_fragment_context"
+    },
+    {
+      "source": "zeeguu.core.model.context_type",
+      "target": "zeeguu.core.model.article_title_context"
+    },
+    {
+      "source": "zeeguu.core.model.context_type",
+      "target": "zeeguu.core.model.article_summary_context"
+    },
+    {
+      "source": "zeeguu.core.model.context_type",
+      "target": "zeeguu.core.model.video_title_context"
+    },
+    {
+      "source": "zeeguu.core.model.context_type",
+      "target": "zeeguu.core.model.video_caption_context"
+    },
+    {
+      "source": "zeeguu.core.model.context_type",
+      "target": "zeeguu.core.model.example_sentence_context"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model.daily_audio_lesson_segment"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model.daily_audio_lesson_segment"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model.daily_audio_lesson_segment"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson",
+      "target": "zeeguu.core.model.daily_audio_lesson_segment"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson_segment",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson_segment",
+      "target": "zeeguu.core.model.audio_lesson_meaning"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson_segment",
+      "target": "zeeguu.core.model.audio_lesson_dialogue"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson_segment",
+      "target": "zeeguu.core.model.daily_audio_lesson_wrapper"
+    },
+    {
+      "source": "zeeguu.core.model.daily_audio_lesson_wrapper",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.difficulty_lingo_rank",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.difficulty_lingo_rank",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.difficulty_lingo_rank",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.domain_name",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.domain_name",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence",
+      "target": "zeeguu.core.model.ai_generator"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence_context",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence_context",
+      "target": "zeeguu.core.model.example_sentence"
+    },
+    {
+      "source": "zeeguu.core.model.example_sentence_context",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.exercise",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.exercise",
+      "target": "zeeguu.core.model.exercise_outcome"
+    },
+    {
+      "source": "zeeguu.core.model.exercise",
+      "target": "zeeguu.core.model.exercise_source"
+    },
+    {
+      "source": "zeeguu.core.model.exercise",
+      "target": "zeeguu.core.model.user_exercise_session"
+    },
+    {
+      "source": "zeeguu.core.model.exercise",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.exercise",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.exercise",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.exercise_outcome",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.exercise_outcome",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.exercise_report",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.exercise_source",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.exercise_source",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.feed",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.feed",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.feed",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.feed",
+      "target": "zeeguu.core.feed_handler"
+    },
+    {
+      "source": "zeeguu.core.model.feed",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.core.model.feed",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.feed",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.feedback_component",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.feedback_component",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.friend_request",
+      "target": "zeeguu.core.model.user_avatar"
+    },
+    {
+      "source": "zeeguu.core.model.friend_request",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.friend_request",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.friend_request",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.core.model.friendship",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.friendship",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.friendship",
+      "target": "zeeguu.core.model.user_avatar"
+    },
+    {
+      "source": "zeeguu.core.model.friendship",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.friendship",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.friendship",
+      "target": "zeeguu.core.model.friend_request"
+    },
+    {
+      "source": "zeeguu.core.model.friendship",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.friendship",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.grammar_correction_log",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.language",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.language",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.core.model.language",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.language",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.language",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.meaning",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.meaning",
+      "target": "zeeguu.core.model.phrase"
+    },
+    {
+      "source": "zeeguu.core.model.meaning",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.meaning",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.meaning",
+      "target": "zeeguu.api.utils.background"
+    },
+    {
+      "source": "zeeguu.core.model.meaning",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.meaning",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.meaning",
+      "target": "zeeguu.core.model.meaning_frequency_classifier"
+    },
+    {
+      "source": "zeeguu.core.model.meaning_frequency_classifier",
+      "target": "zeeguu.core.llm_services.prompts.meaning_frequency_classifier"
+    },
+    {
+      "source": "zeeguu.core.model.meaning_frequency_classifier",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.model.meaning_frequency_classifier",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.model.meaning_frequency_classifier",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.meaning_frequency_classifier",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.meaning_report",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.monthly_active_users_cache",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.monthly_activity_stats_cache",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.new_text",
+      "target": "zeeguu.core.util"
+    },
+    {
+      "source": "zeeguu.core.model.new_text",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.notification",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.personal_copy",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.personal_copy",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.personal_copy",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.core.model.personal_copy",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.phrase",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.phrase",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.phrase",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.search",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.search",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.search",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.search_filter",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.search_filter",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.search_filter",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.search_filter",
+      "target": "zeeguu.core.model.search"
+    },
+    {
+      "source": "zeeguu.core.model.search_filter",
+      "target": "zeeguu.core.model.search"
+    },
+    {
+      "source": "zeeguu.core.model.search_subscription",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.search_subscription",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.search_subscription",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.search_subscription",
+      "target": "zeeguu.core.model.search"
+    },
+    {
+      "source": "zeeguu.core.model.search_subscription",
+      "target": "zeeguu.core.model.search"
+    },
+    {
+      "source": "zeeguu.core.model.session",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.session",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.source",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.source",
+      "target": "zeeguu.core.model.source_text"
+    },
+    {
+      "source": "zeeguu.core.model.source",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.model.source",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.source",
+      "target": "zeeguu.core.util"
+    },
+    {
+      "source": "zeeguu.core.model.source_text",
+      "target": "zeeguu.core.util"
+    },
+    {
+      "source": "zeeguu.core.model.source_text",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.source_type",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.starred_article",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.core.model.starred_article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.starred_article",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.starred_article",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.teacher",
+      "target": "zeeguu.core.model.teacher_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.model.teacher",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.teacher",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.teacher",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.teacher_cohort_map",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.teacher_cohort_map",
+      "target": "zeeguu.core.model.cohort"
+    },
+    {
+      "source": "zeeguu.core.model.teacher_cohort_map",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.text",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.text",
+      "target": "zeeguu.core.util"
+    },
+    {
+      "source": "zeeguu.core.model.text",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.text",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.text",
+      "target": "zeeguu.core.model.phrase"
+    },
+    {
+      "source": "zeeguu.core.model.text",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.text",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.text",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.topic",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.topic",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.topic",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.topic",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.core.model.topic",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.topic",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.topic_filter",
+      "target": "zeeguu.core.model.topic"
+    },
+    {
+      "source": "zeeguu.core.model.topic_filter",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.topic_filter",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.topic_filter",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.topic_subscription",
+      "target": "zeeguu.core.model.topic"
+    },
+    {
+      "source": "zeeguu.core.model.topic_subscription",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.topic_subscription",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.topic_subscription",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.translation_search",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.translation_search",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.translation_search",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.unique_code",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.unique_code",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.url",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.url",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.url",
+      "target": "zeeguu.core.model.domain_name"
+    },
+    {
+      "source": "zeeguu.core.model.url_keyword",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.url_keyword",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.url_keyword",
+      "target": "zeeguu.core.model.topic"
+    },
+    {
+      "source": "zeeguu.core.model.url_keyword",
+      "target": "zeeguu.core.util"
+    },
+    {
+      "source": "zeeguu.core.model.url_keyword",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.language.difficulty_estimator_factory"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.util.hash"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_avatar"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_preference"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_language"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.sql.queries.query_loader"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.sql.query_building"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.exercise"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.phrase"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.exercise"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.phrase"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_reading_session"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.text"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.bookmark_context"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.user_feature_toggles"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.audio_lessons.voice_config"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.audio_lessons.word_selector"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_avatar"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user",
+      "target": "zeeguu.core.model.user_preference"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.model.user_reading_session"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.behavioral_modeling"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.model.user_reading_session"
+    },
+    {
+      "source": "zeeguu.core.model.user_activitiy_data",
+      "target": "zeeguu.core.util"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.article_difficulty_feedback"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.article_topic_user_feedback"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.personal_copy"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.user_mwe_override"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.article_title_context"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.article_fragment_context"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.article_summary_context"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.article_title_context"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.article_tokenization_cache"
+    },
+    {
+      "source": "zeeguu.core.model.user_article",
+      "target": "zeeguu.core.model.article_tokenization_cache"
+    },
+    {
+      "source": "zeeguu.core.model.user_article_broken_report",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_article_broken_report",
+      "target": "zeeguu.core.model.article"
+    },
+    {
+      "source": "zeeguu.core.model.user_article_broken_report",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.user_article_broken_report",
+      "target": "zeeguu.core.model.article_broken_code_map"
+    },
+    {
+      "source": "zeeguu.core.model.user_avatar",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_badge",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_badge_progress",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_browsing_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_browsing_session",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.user_browsing_session",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.user_browsing_session",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.core.model.user_browsing_session",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_cohort_map",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_exercise_session",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.user_exercise_session",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.user_exercise_session",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.user_exercise_session",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_exercise_session",
+      "target": "zeeguu.core.sql.learner.exercises_history"
+    },
+    {
+      "source": "zeeguu.core.model.user_feedback",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.user_feedback",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.user_feedback",
+      "target": "zeeguu.core.model.feedback_component"
+    },
+    {
+      "source": "zeeguu.core.model.user_feedback",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.user_feedback",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_language",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_language",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.core.model.user_language",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.user_language",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_language",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.user_language",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.user_listening_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_listening_session",
+      "target": "zeeguu.core.model.daily_audio_lesson"
+    },
+    {
+      "source": "zeeguu.core.model.user_listening_session",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.user_listening_session",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.core.model.user_listening_session",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_mwe_override",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_mwe_override",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_notification",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_notification",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.user_notification",
+      "target": "zeeguu.core.model.notification"
+    },
+    {
+      "source": "zeeguu.core.model.user_preference",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_preference",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.user_preference",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user_preference",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.model.user_preference",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.model.user_preference",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.model.user_reading_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_reading_session",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.core.model.user_reading_session",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.user_reading_session",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.core.model.user_reading_session",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_reading_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_video",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_video",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.model.user_video",
+      "target": "zeeguu.core.model.video"
+    },
+    {
+      "source": "zeeguu.core.model.user_video",
+      "target": "zeeguu.core.model.video_caption_context"
+    },
+    {
+      "source": "zeeguu.core.model.user_video",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.user_video",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.user_video",
+      "target": "zeeguu.core.model.video_title_context"
+    },
+    {
+      "source": "zeeguu.core.model.user_video",
+      "target": "zeeguu.core.model.user_activitiy_data"
+    },
+    {
+      "source": "zeeguu.core.model.user_watching_session",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_watching_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_watching_session",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.core.model.user_watching_session",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.user_watching_session",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.core.model.user_watching_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.bookmark_quality.fit_for_study"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.model.bookmark_user_preference"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.word_scheduling"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core.word_scheduling.basicSR.basicSR"
+    },
+    {
+      "source": "zeeguu.core.model.user_word",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.model.user_word_interaction_history",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.user_word_interaction_history",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.validation_log",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.caption"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.video_tag"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.video_tag_map"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.video_topic_map"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.yt_channel"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.context_identifier"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.language.fk_to_cefr"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.elastic.indexing"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.youtube_api.youtube_api"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.semantic_search"
+    },
+    {
+      "source": "zeeguu.core.model.video",
+      "target": "zeeguu.core.mwe"
+    },
+    {
+      "source": "zeeguu.core.model.video_caption_context",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.video_caption_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.video_caption_context",
+      "target": "zeeguu.core.model.caption"
+    },
+    {
+      "source": "zeeguu.core.model.video_caption_context",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.video_tag",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.video_tag_map",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.video_title_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.video_title_context",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.video_title_context",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.model.video_title_context",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.model.video_topic_map",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.yt_channel",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.model.yt_channel",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.model.yt_channel",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.mwe",
+      "target": "zeeguu.core.tokenization"
+    },
+    {
+      "source": "zeeguu.core.reading_analysis.macro_reading_session",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.semantic_search.elastic_semantic_search",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.semantic_search.elastic_semantic_search",
+      "target": "zeeguu.core.elastic.elastic_query_builder"
+    },
+    {
+      "source": "zeeguu.core.semantic_search.elastic_semantic_search",
+      "target": "zeeguu.core.content_recommender.elastic_recommender"
+    },
+    {
+      "source": "zeeguu.core.semantic_search.elastic_semantic_search",
+      "target": "zeeguu.core.util.timer_logging_decorator"
+    },
+    {
+      "source": "zeeguu.core.semantic_search.elastic_semantic_search",
+      "target": "zeeguu.core.elastic.settings"
+    },
+    {
+      "source": "zeeguu.core.semantic_search.elastic_semantic_search",
+      "target": "zeeguu.core.semantic_vector_api"
+    },
+    {
+      "source": "zeeguu.core.semantic_vector_api.retrieve_embeddings",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.sql.learner.exercises_history",
+      "target": "zeeguu.core.sql.query_building"
+    },
+    {
+      "source": "zeeguu.core.sql.learner.words",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.sql.learner.words",
+      "target": "zeeguu.core.sql.query_building"
+    },
+    {
+      "source": "zeeguu.core.sql.query_building",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.sql.teacher.teachers_for_cohort",
+      "target": "zeeguu.core.sql.query_building"
+    },
+    {
+      "source": "zeeguu.core.test._session_data",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.conftest",
+      "target": "zeeguu.core.test.test_app"
+    },
+    {
+      "source": "zeeguu.core.test.conftest",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.conftest",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.core.test.conftest",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.test.conftest",
+      "target": "zeeguu.core.test.fixtures"
+    },
+    {
+      "source": "zeeguu.core.test.fixtures",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.fixtures",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.test.fixtures",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.test.mocking_the_web",
+      "target": "zeeguu.core.content_retriever.parse_with_readability_server"
+    },
+    {
+      "source": "zeeguu.core.test.mocking_the_web",
+      "target": "zeeguu.core.semantic_vector_api"
+    },
+    {
+      "source": "zeeguu.core.test.model_test_mixin",
+      "target": "zeeguu.core.test.conftest"
+    },
+    {
+      "source": "zeeguu.core.test.model_test_mixin",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.rules.article_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.article_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.article_rule",
+      "target": "zeeguu.core.test.rules.feed_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.article_rule",
+      "target": "zeeguu.core.test.rules.url_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.article_rule",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.rules.article_rule",
+      "target": "zeeguu.core.test.rules.source_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.article_rule",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.core.test.rules.base_rule",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.rules.base_rule",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_context_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_context_rule",
+      "target": "zeeguu.core.model.bookmark_context"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_context_rule",
+      "target": "zeeguu.core.test.rules.new_text_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_context_rule",
+      "target": "zeeguu.core.model.context_type"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_context_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.bookmark_quality"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.test.rules.meaning_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.test.rules.phrase_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.model.phrase"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.test.rules.user_word_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.test.rules.bookmark_context_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.bookmark_rule",
+      "target": "zeeguu.core.test.rules.text_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.cohort_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.cohort_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.cohort_rule",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.cohort_rule",
+      "target": "zeeguu.core.model.cohort"
+    },
+    {
+      "source": "zeeguu.core.test.rules.cohort_rule",
+      "target": "zeeguu.core.model.teacher_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_rule",
+      "target": "zeeguu.core.test.rules.meaning_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_rule",
+      "target": "zeeguu.core.test.rules.outcome_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_rule",
+      "target": "zeeguu.core.test.rules.exercise_source_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_rule",
+      "target": "zeeguu.core.model.exercise"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_rule",
+      "target": "zeeguu.core.test.rules.user_word_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_session_rule",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_session_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_source_rule",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_source_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.exercise_source_rule",
+      "target": "zeeguu.core.model.exercise_source"
+    },
+    {
+      "source": "zeeguu.core.test.rules.feed_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.feed_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.feed_rule",
+      "target": "zeeguu.core.test.rules.url_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.feed_rule",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.rules.language_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.language_rule",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.test.rules.meaning_rule",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.rules.meaning_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.meaning_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.meaning_rule",
+      "target": "zeeguu.core.model.phrase"
+    },
+    {
+      "source": "zeeguu.core.test.rules.meaning_rule",
+      "target": "zeeguu.core.test.rules.phrase_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.new_text_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.new_text_rule",
+      "target": "zeeguu.core.model.new_text"
+    },
+    {
+      "source": "zeeguu.core.test.rules.outcome_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.outcome_rule",
+      "target": "zeeguu.core.model.exercise_outcome"
+    },
+    {
+      "source": "zeeguu.core.test.rules.phrase_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.phrase_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.phrase_rule",
+      "target": "zeeguu.core.model.phrase"
+    },
+    {
+      "source": "zeeguu.core.test.rules.scheduler_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.source_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.source_rule",
+      "target": "zeeguu.core.model.source"
+    },
+    {
+      "source": "zeeguu.core.test.rules.source_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.source_rule",
+      "target": "zeeguu.core.test.rules.source_text_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.source_rule",
+      "target": "zeeguu.core.model.source_type"
+    },
+    {
+      "source": "zeeguu.core.test.rules.source_text_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.source_text_rule",
+      "target": "zeeguu.core.model.source_text"
+    },
+    {
+      "source": "zeeguu.core.test.rules.text_rule",
+      "target": "zeeguu.core.test.rules.article_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.text_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.text_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.text_rule",
+      "target": "zeeguu.core.test.rules.url_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.text_rule",
+      "target": "zeeguu.core.model.text"
+    },
+    {
+      "source": "zeeguu.core.test.rules.topic_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.topic_rule",
+      "target": "zeeguu.core.model.topic"
+    },
+    {
+      "source": "zeeguu.core.test.rules.url_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.url_rule",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_article_rule",
+      "target": "zeeguu.core.test.rules.article_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_article_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_article_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_article_rule",
+      "target": "zeeguu.core.test.rules.feed_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_article_rule",
+      "target": "zeeguu.core.test.rules.url_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_article_rule",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_article_rule",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_article_rule",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_exercise_session_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_exercise_session_rule",
+      "target": "zeeguu.core.test.rules.cohort_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_exercise_session_rule",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_exercise_session_rule",
+      "target": "zeeguu.core.model.user_exercise_session"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_reading_session_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_reading_session_rule",
+      "target": "zeeguu.core.test.rules.cohort_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_reading_session_rule",
+      "target": "zeeguu.core.test.rules.article_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_reading_session_rule",
+      "target": "zeeguu.core.model.user_reading_session"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_rule",
+      "target": "zeeguu.core.test.rules.bookmark_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_rule",
+      "target": "zeeguu.core.test.rules.exercise_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_rule",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_word_rule",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_word_rule",
+      "target": "zeeguu.core.test.rules.base_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_word_rule",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_word_rule",
+      "target": "zeeguu.core.model.phrase"
+    },
+    {
+      "source": "zeeguu.core.test.rules.user_word_rule",
+      "target": "zeeguu.core.test.rules.phrase_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_app",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.core.test.test_app",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.test_article",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_article",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.test.test_article",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.core.test.test_article",
+      "target": "zeeguu.core.test.rules.article_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_article",
+      "target": "zeeguu.core.test.rules.topic_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.bookmark_quality"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.model.sorted_exercise_log"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.test.rules.exercise_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.test.rules.exercise_session_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.test.rules.exercise_source_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.test.rules.outcome_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.word_scheduling"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.test.conftest"
+    },
+    {
+      "source": "zeeguu.core.test.test_bookmark",
+      "target": "zeeguu.core.test.conftest"
+    },
+    {
+      "source": "zeeguu.core.test.test_cohort",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_cohort",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.test.test_cohort",
+      "target": "zeeguu.core.test.rules.cohort_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_cohort",
+      "target": "zeeguu.core.model.teacher"
+    },
+    {
+      "source": "zeeguu.core.test.test_cohort",
+      "target": "zeeguu.core.model.teacher_cohort_map"
+    },
+    {
+      "source": "zeeguu.core.test.test_difficulty_estimator_factory",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_difficulty_estimator_factory",
+      "target": "zeeguu.core.language.difficulty_estimator_factory"
+    },
+    {
+      "source": "zeeguu.core.test.test_difficulty_estimator_factory",
+      "target": "zeeguu.core.language.strategies.default_difficulty_estimator"
+    },
+    {
+      "source": "zeeguu.core.test.test_difficulty_estimator_factory",
+      "target": "zeeguu.core.language.strategies.flesch_kincaid_difficulty_estimator"
+    },
+    {
+      "source": "zeeguu.core.test.test_domain",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_domain",
+      "target": "zeeguu.core.test.rules.url_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_domain",
+      "target": "zeeguu.core.model.domain_name"
+    },
+    {
+      "source": "zeeguu.core.test.test_domain",
+      "target": "zeeguu.core.model.url"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.friends.listeners"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.friends.friend_streak"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.model.user_language"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.model.user_language"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.model.friendship"
+    },
+    {
+      "source": "zeeguu.core.test.test_friends",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.test.test_language",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.test.test_language",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_language",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_language",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_language",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.test.test_language",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_logging",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.test.test_retrieve_and_compute",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_retrieve_and_compute",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_retrieve_and_compute",
+      "target": "zeeguu.core.content_cleaning.content_cleaner"
+    },
+    {
+      "source": "zeeguu.core.test.test_retrieve_and_compute",
+      "target": "zeeguu.core.content_quality.quality_filter"
+    },
+    {
+      "source": "zeeguu.core.test.test_retrieve_and_compute",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.rules.bookmark_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.rules.exercise_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.rules.exercise_session_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.rules.outcome_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.rules.scheduler_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.model.user"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.word_scheduling"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.conftest"
+    },
+    {
+      "source": "zeeguu.core.test.test_scheduling",
+      "target": "zeeguu.core.test.conftest"
+    },
+    {
+      "source": "zeeguu.core.test.test_text",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_text",
+      "target": "zeeguu.core.test.rules.bookmark_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_text",
+      "target": "zeeguu.core.test.rules.text_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_text",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_tokenizer",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_tokenizer",
+      "target": "zeeguu.core.tokenization"
+    },
+    {
+      "source": "zeeguu.core.test.test_tokenizer",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_tokenizer",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.core.test.test_url",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_url",
+      "target": "zeeguu.core.test.rules.url_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_url",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_url",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_url_keywords",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.test.test_url_keywords",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_url_keywords",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_user",
+      "target": "zeeguu.core.account_management.user_account_deletion"
+    },
+    {
+      "source": "zeeguu.core.test.test_user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_user",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.test_user",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_user",
+      "target": "zeeguu.core.test.rules.bookmark_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_user",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article",
+      "target": "zeeguu.core.test.rules.article_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article",
+      "target": "zeeguu.core.test.rules.user_article_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article",
+      "target": "zeeguu.core.model.user_article"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article_broken_report",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article_broken_report",
+      "target": "zeeguu.core.test.rules.article_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article_broken_report",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article_broken_report",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article_broken_report",
+      "target": "zeeguu.core.model.article_broken_code_map"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_article_broken_report",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_preferences",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_preferences",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_preferences",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_preferences",
+      "target": "zeeguu.core.test.rules.phrase_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_preferences",
+      "target": "zeeguu.core.model.user_preference"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_preferences",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_word",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_word",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_word",
+      "target": "zeeguu.core.test.rules.phrase_rule"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_word",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.test.test_user_word",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.test.testing_data",
+      "target": "zeeguu.core.test.mocking_the_web"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_default_difficulty_estimator",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_default_difficulty_estimator",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_default_difficulty_estimator",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_default_difficulty_estimator",
+      "target": "zeeguu.core.language.strategies.default_difficulty_estimator"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_flesch_kincaid_difficulty_estimator",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_flesch_kincaid_difficulty_estimator",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_flesch_kincaid_difficulty_estimator",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_flesch_kincaid_difficulty_estimator",
+      "target": "zeeguu.core.language.strategies.flesch_kincaid_difficulty_estimator"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_frequency_difficulty_estimator",
+      "target": "zeeguu.core.test.model_test_mixin"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_frequency_difficulty_estimator",
+      "target": "zeeguu.core.test.rules.language_rule"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_frequency_difficulty_estimator",
+      "target": "zeeguu.core.test.rules.user_rule"
+    },
+    {
+      "source": "zeeguu.core.test.tests_difficulty_estimator_strategies.test_frequency_difficulty_estimator",
+      "target": "zeeguu.core.language.difficulty_estimator_factory"
+    },
+    {
+      "source": "zeeguu.core.tokenization",
+      "target": "zeeguu_tokenizer"
+    },
+    {
+      "source": "zeeguu.core.tokenization.nltk_tokenizer",
+      "target": "zeeguu.core.tokenization.token"
+    },
+    {
+      "source": "zeeguu.core.tokenization.nltk_tokenizer",
+      "target": "zeeguu.core.tokenization.zeeguu_tokenizer"
+    },
+    {
+      "source": "zeeguu.core.tokenization.nltk_tokenizer",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.tokenization.stanza_client",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.tokenization.stanza_client",
+      "target": "zeeguu.core.tokenization.zeeguu_tokenizer"
+    },
+    {
+      "source": "zeeguu.core.tokenization.stanza_client",
+      "target": "zeeguu.core.tokenization.token"
+    },
+    {
+      "source": "zeeguu.core.tokenization.stanza_tokenizer",
+      "target": "zeeguu.core.tokenization.token"
+    },
+    {
+      "source": "zeeguu.core.tokenization.stanza_tokenizer",
+      "target": "zeeguu.core.tokenization.zeeguu_tokenizer"
+    },
+    {
+      "source": "zeeguu.core.tokenization.stanza_tokenizer",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.tokenization.stanza_tokenizer",
+      "target": "zeeguu.config"
+    },
+    {
+      "source": "zeeguu.core.tokenization.word_position_finder",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.tokenization.word_position_finder",
+      "target": "zeeguu.core.tokenization.zeeguu_tokenizer"
+    },
+    {
+      "source": "zeeguu.core.tokenization.word_position_finder",
+      "target": "zeeguu.core.tokenization.stanza_tokenizer"
+    },
+    {
+      "source": "zeeguu.core.tokenization.word_position_finder",
+      "target": "zeeguu.core.tokenization.nltk_tokenizer"
+    },
+    {
+      "source": "zeeguu.core.tokenization.zeeguu_tokenizer",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.translation_services.translator",
+      "target": "zeeguu.core.utils.caching"
+    },
+    {
+      "source": "zeeguu.core.translation_services.translator",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.translation_services.translator",
+      "target": "zeeguu.core.translation_services.azure_alignment"
+    },
+    {
+      "source": "zeeguu.core.translation_services.translator",
+      "target": "zeeguu.core.llm_services.mwe_translation_service"
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks.article_interaction_hooks",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks.article_interaction_hooks",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks.article_interaction_hooks",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks.article_interaction_hooks",
+      "target": "zeeguu.core.emailer.user_activity"
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks.article_interaction_hooks",
+      "target": "zeeguu.core.emailer.user_activity"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.activity",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.activity",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.exercise_corectness",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.exercise_corectness",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.exercise_sessions",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.exercise_sessions",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.exercise_sessions",
+      "target": "zeeguu.core.model.cohort"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.reading_sessions",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.reading_sessions",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.student_overview",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.user_statistics.student_overview",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.util.encoding"
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.util.hash"
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.util.time"
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.util.list"
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.util.reading_time_estimator"
+    },
+    {
+      "source": "zeeguu.core.util.compute_fk_word_count",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.util.compute_fk_word_count",
+      "target": "zeeguu.core.language.difficulty_estimator_factory"
+    },
+    {
+      "source": "zeeguu.core.util.compute_fk_word_count",
+      "target": "zeeguu.core.tokenization"
+    },
+    {
+      "source": "zeeguu.core.util.encoding",
+      "target": "zeeguu.core.constants"
+    },
+    {
+      "source": "zeeguu.core.util.text",
+      "target": "zeeguu.core.model.language"
+    },
+    {
+      "source": "zeeguu.core.util.timer_logging_decorator",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.util.timer_logging_decorator",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.db"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.user_word"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.text"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.bookmark_context"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.bookmark"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.basicSR",
+      "target": "zeeguu.core.model.bookmark_user_preference"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word",
+      "target": "zeeguu.core.model.meaning"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word",
+      "target": "zeeguu.core.llm_services.validation_service"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word",
+      "target": "zeeguu.core.llm_services.validation_service"
+    },
+    {
+      "source": "zeeguu.core.word_scheduling.basicSR.four_levels_per_word",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.core.youtube_api.youtube_api",
+      "target": "zeeguu.config"
+    },
+    {
+      "source": "zeeguu.core.youtube_api.youtube_api",
+      "target": "zeeguu.core.util.text"
+    },
+    {
+      "source": "zeeguu.operations.crawler.article_crawler",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.operations.crawler.article_crawler",
+      "target": "zeeguu.api.app"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.core.content_retriever.article_downloader"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.operations.crawler.crawl_report"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.api.app"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.core.content_retriever.article_downloader"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.operations.crawler.crawl",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.operations.crawler.feed_retrieval",
+      "target": "zeeguu.core"
+    },
+    {
+      "source": "zeeguu.operations.crawler.feed_retrieval",
+      "target": "zeeguu.core.emailer.zeeguu_mailer"
+    },
+    {
+      "source": "zeeguu.operations.crawler.feed_retrieval",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.operations.crawler.feed_retrieval",
+      "target": "zeeguu.core.content_retriever.article_downloader"
+    },
+    {
+      "source": "zeeguu.operations.crawler.feed_retrieval",
+      "target": "zeeguu.core.model"
+    },
+    {
+      "source": "zeeguu.operations.crawler.feed_retrieval",
+      "target": "zeeguu.operations.crawler.crawl_report"
+    },
+    {
+      "source": "zeeguu.operations.crawler.video_crawler",
+      "target": "zeeguu.core.content_retriever.video_dowloader"
+    },
+    {
+      "source": "zeeguu.operations.crawler.video_crawler",
+      "target": "zeeguu.logging"
+    },
+    {
+      "source": "zeeguu.operations.crawler.video_crawler",
+      "target": "zeeguu.api.app"
+    },
+    {
+      "source": "zeeguu.operations.report_generator.generate_report",
+      "target": "zeeguu.core.model.article_topic_map"
+    },
+    {
+      "source": "zeeguu.operations.report_generator.generate_report",
+      "target": "zeeguu.operations.crawler.crawl_report"
+    },
+    {
+      "source": "zeeguu.operations.report_generator.generate_report",
+      "target": "zeeguu.api.app"
+    }
+  ]
+}

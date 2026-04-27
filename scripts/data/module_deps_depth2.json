@@ -1,0 +1,1021 @@
+{
+  "depth": 2,
+  "modules": [
+    "zeeguu",
+    "zeeguu.api.app",
+    "zeeguu.api.custom_fmd_graphs",
+    "zeeguu.api.endpoints",
+    "zeeguu.api.test",
+    "zeeguu.api.utils",
+    "zeeguu.cl",
+    "zeeguu.config",
+    "zeeguu.config.loader",
+    "zeeguu.core",
+    "zeeguu.core.account_management",
+    "zeeguu.core.audio_lessons",
+    "zeeguu.core.badges",
+    "zeeguu.core.behavioral_modeling",
+    "zeeguu.core.bookmark_operations",
+    "zeeguu.core.bookmark_quality",
+    "zeeguu.core.constants",
+    "zeeguu.core.content_cleaning",
+    "zeeguu.core.content_quality",
+    "zeeguu.core.content_recommender",
+    "zeeguu.core.content_retriever",
+    "zeeguu.core.crowd_translations",
+    "zeeguu.core.elastic",
+    "zeeguu.core.emailer",
+    "zeeguu.core.exercises",
+    "zeeguu.core.feed_handler",
+    "zeeguu.core.friends",
+    "zeeguu.core.language",
+    "zeeguu.core.leaderboards",
+    "zeeguu.core.llm_services",
+    "zeeguu.core.ml_models",
+    "zeeguu.core.model",
+    "zeeguu.core.mwe",
+    "zeeguu.core.nlp_pipeline",
+    "zeeguu.core.reading_analysis",
+    "zeeguu.core.semantic_search",
+    "zeeguu.core.semantic_vector_api",
+    "zeeguu.core.sql",
+    "zeeguu.core.test",
+    "zeeguu.core.tokenization",
+    "zeeguu.core.translation_services",
+    "zeeguu.core.user_activity_hooks",
+    "zeeguu.core.user_feature_toggles",
+    "zeeguu.core.user_statistics",
+    "zeeguu.core.util",
+    "zeeguu.core.utils",
+    "zeeguu.core.word_filter",
+    "zeeguu.core.word_scheduling",
+    "zeeguu.core.word_stats",
+    "zeeguu.core.youtube_api",
+    "zeeguu.logging",
+    "zeeguu.operations.crawler",
+    "zeeguu.operations.report_generator",
+    "zeeguu_tokenizer"
+  ],
+  "dependencies": [
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.model",
+      "weight": 174
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.api.utils",
+      "weight": 95
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.model",
+      "weight": 72
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.logging",
+      "weight": 30
+    },
+    {
+      "source": "zeeguu.api.test",
+      "target": "zeeguu.core.model",
+      "weight": 28
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.util",
+      "weight": 22
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core",
+      "weight": 22
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.logging",
+      "weight": 19
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core",
+      "weight": 16
+    },
+    {
+      "source": "zeeguu.core.llm_services",
+      "target": "zeeguu.core.model",
+      "weight": 14
+    },
+    {
+      "source": "zeeguu.core.leaderboards",
+      "target": "zeeguu.core.model",
+      "weight": 12
+    },
+    {
+      "source": "zeeguu.core.account_management",
+      "target": "zeeguu.core.model",
+      "weight": 11
+    },
+    {
+      "source": "zeeguu.core.audio_lessons",
+      "target": "zeeguu.core.model",
+      "weight": 11
+    },
+    {
+      "source": "zeeguu.core.word_scheduling",
+      "target": "zeeguu.core.model",
+      "weight": 11
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core.model",
+      "weight": 10
+    },
+    {
+      "source": "zeeguu.core.llm_services",
+      "target": "zeeguu.logging",
+      "weight": 10
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.mwe",
+      "weight": 10
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.word_scheduling",
+      "weight": 10
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.emailer",
+      "weight": 9
+    },
+    {
+      "source": "zeeguu.api.test",
+      "target": "zeeguu.core.test",
+      "weight": 9
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.content_retriever",
+      "weight": 8
+    },
+    {
+      "source": "zeeguu.core.elastic",
+      "target": "zeeguu.core.model",
+      "weight": 8
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core",
+      "weight": 8
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.llm_services",
+      "weight": 7
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.word_scheduling",
+      "weight": 7
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.user_statistics",
+      "weight": 7
+    },
+    {
+      "source": "zeeguu.core.badges",
+      "target": "zeeguu.core.model",
+      "weight": 7
+    },
+    {
+      "source": "zeeguu.core.audio_lessons",
+      "target": "zeeguu.logging",
+      "weight": 6
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.language",
+      "weight": 6
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.model",
+      "weight": 5
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.sql",
+      "weight": 5
+    },
+    {
+      "source": "zeeguu.api.utils",
+      "target": "zeeguu.core.model",
+      "weight": 5
+    },
+    {
+      "source": "zeeguu.core.user_statistics",
+      "target": "zeeguu.core",
+      "weight": 5
+    },
+    {
+      "source": "zeeguu.core.user_statistics",
+      "target": "zeeguu.core.model",
+      "weight": 5
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.language",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.audio_lessons",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations",
+      "target": "zeeguu.core.model",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.core.bookmark_quality",
+      "target": "zeeguu.core.model",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.core.content_recommender",
+      "target": "zeeguu.core.elastic",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.core.emailer",
+      "target": "zeeguu.core.model",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.core.language",
+      "target": "zeeguu.core",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.constants",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.core.tokenization",
+      "target": "zeeguu.core.model",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.operations.crawler",
+      "target": "zeeguu.logging",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.operations.crawler",
+      "target": "zeeguu.core.content_retriever",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.operations.crawler",
+      "target": "zeeguu.core.model",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.account_management",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.tokenization",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.content_recommender",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.api.utils",
+      "target": "zeeguu.logging",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.audio_lessons",
+      "target": "zeeguu.config",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.audio_lessons",
+      "target": "zeeguu.core.word_scheduling",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.content_recommender",
+      "target": "zeeguu.core.model",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core.content_quality",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.friends",
+      "target": "zeeguu.core.model",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.language",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.content_retriever",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.llm_services",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.sql",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.operations.crawler",
+      "target": "zeeguu.api.app",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.api.utils",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.util",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.friends",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.leaderboards",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.nlp_pipeline",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.constants",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.translation_services",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.bookmark_operations",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.test",
+      "target": "zeeguu.api.app",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.account_management",
+      "target": "zeeguu.core",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.account_management",
+      "target": "zeeguu.core.emailer",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.audio_lessons",
+      "target": "zeeguu.core.llm_services",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations",
+      "target": "zeeguu.core.word_scheduling",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core.content_cleaning",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.logging",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.crowd_translations",
+      "target": "zeeguu.core.model",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.feed_handler",
+      "target": "zeeguu.logging",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.language",
+      "target": "zeeguu.core.util",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.tokenization",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.elastic",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.audio_lessons",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.semantic_search",
+      "target": "zeeguu.core.elastic",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.sql",
+      "target": "zeeguu.core.model",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.bookmark_quality",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.word_scheduling",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.friends",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks",
+      "target": "zeeguu.core.emailer",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.model",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.core.word_scheduling",
+      "target": "zeeguu.core.llm_services",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.operations.crawler",
+      "target": "zeeguu.core",
+      "weight": 2
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.config.loader",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.config",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.badges",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.friends",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.app",
+      "target": "zeeguu.core.tokenization",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.custom_fmd_graphs",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.user_activity_hooks",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.behavioral_modeling",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.bookmark_quality",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.exercises",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.user_feature_toggles",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.config",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.endpoints",
+      "target": "zeeguu.core.crowd_translations",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.test",
+      "target": "zeeguu",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.utils",
+      "target": "zeeguu.core.utils",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.api.utils",
+      "target": "zeeguu",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.cl",
+      "target": "zeeguu.api.app",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.account_management",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.audio_lessons",
+      "target": "zeeguu.core.emailer",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.audio_lessons",
+      "target": "zeeguu.core",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.badges",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.badges",
+      "target": "zeeguu.core",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.bookmark_operations",
+      "target": "zeeguu.core.tokenization",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_cleaning",
+      "target": "zeeguu.core",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_cleaning",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_quality",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_quality",
+      "target": "zeeguu.core.ml_models",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_recommender",
+      "target": "zeeguu.core.util",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core.semantic_search",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core.elastic",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core.llm_services",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.content_retriever",
+      "target": "zeeguu.core.youtube_api",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.elastic",
+      "target": "zeeguu.core.semantic_vector_api",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.emailer",
+      "target": "zeeguu.core.sql",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.emailer",
+      "target": "zeeguu",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.emailer",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.exercises",
+      "target": "zeeguu.core.word_stats",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.exercises",
+      "target": "zeeguu.core.word_filter",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.exercises",
+      "target": "zeeguu.core.word_scheduling",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.feed_handler",
+      "target": "zeeguu.core.util",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.friends",
+      "target": "zeeguu.core.util",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.friends",
+      "target": "zeeguu.core",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.language",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.language",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.llm_services",
+      "target": "zeeguu.core.language",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.llm_services",
+      "target": "zeeguu.core.elastic",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.llm_services",
+      "target": "zeeguu.core.word_scheduling",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.llm_services",
+      "target": "zeeguu.core.bookmark_operations",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.ml_models",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.content_quality",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.content_cleaning",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.feed_handler",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.api.utils",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.user_feature_toggles",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.behavioral_modeling",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.bookmark_quality",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.youtube_api",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.model",
+      "target": "zeeguu.core.semantic_search",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.mwe",
+      "target": "zeeguu.core.tokenization",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.reading_analysis",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.semantic_search",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.semantic_search",
+      "target": "zeeguu.core.content_recommender",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.semantic_search",
+      "target": "zeeguu.core.util",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.semantic_search",
+      "target": "zeeguu.core.semantic_vector_api",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.semantic_vector_api",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.content_retriever",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.semantic_vector_api",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.content_cleaning",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.content_quality",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.tokenization",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.test",
+      "target": "zeeguu.core.account_management",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.tokenization",
+      "target": "zeeguu_tokenizer",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.tokenization",
+      "target": "zeeguu.config",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.tokenization",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.translation_services",
+      "target": "zeeguu.core.utils",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.translation_services",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.translation_services",
+      "target": "zeeguu.core.llm_services",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks",
+      "target": "zeeguu.core.constants",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.user_activity_hooks",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.user_statistics",
+      "target": "zeeguu.core.constants",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.language",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.tokenization",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core.constants",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.core",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.util",
+      "target": "zeeguu.logging",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.word_scheduling",
+      "target": "zeeguu.core",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.youtube_api",
+      "target": "zeeguu.config",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core.youtube_api",
+      "target": "zeeguu.core.util",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.operations.crawler",
+      "target": "zeeguu.core.emailer",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.operations.report_generator",
+      "target": "zeeguu.core.model",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.operations.report_generator",
+      "target": "zeeguu.operations.crawler",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.operations.report_generator",
+      "target": "zeeguu.api.app",
+      "weight": 1
+    }
+  ]
+}

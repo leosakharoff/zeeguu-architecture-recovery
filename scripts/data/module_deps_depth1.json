@@ -1,0 +1,80 @@
+{
+  "depth": 1,
+  "modules": [
+    "zeeguu",
+    "zeeguu.api",
+    "zeeguu.cl",
+    "zeeguu.config",
+    "zeeguu.core",
+    "zeeguu.logging",
+    "zeeguu.operations",
+    "zeeguu_tokenizer"
+  ],
+  "dependencies": [
+    {
+      "source": "zeeguu.api",
+      "target": "zeeguu.core",
+      "weight": 322
+    },
+    {
+      "source": "zeeguu.core",
+      "target": "zeeguu.logging",
+      "weight": 49
+    },
+    {
+      "source": "zeeguu.api",
+      "target": "zeeguu.logging",
+      "weight": 34
+    },
+    {
+      "source": "zeeguu.operations",
+      "target": "zeeguu.core",
+      "weight": 12
+    },
+    {
+      "source": "zeeguu.core",
+      "target": "zeeguu",
+      "weight": 8
+    },
+    {
+      "source": "zeeguu.api",
+      "target": "zeeguu",
+      "weight": 5
+    },
+    {
+      "source": "zeeguu.core",
+      "target": "zeeguu.config",
+      "weight": 5
+    },
+    {
+      "source": "zeeguu.operations",
+      "target": "zeeguu.logging",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.operations",
+      "target": "zeeguu.api",
+      "weight": 4
+    },
+    {
+      "source": "zeeguu.api",
+      "target": "zeeguu.config",
+      "weight": 3
+    },
+    {
+      "source": "zeeguu.cl",
+      "target": "zeeguu.api",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core",
+      "target": "zeeguu.api",
+      "weight": 1
+    },
+    {
+      "source": "zeeguu.core",
+      "target": "zeeguu_tokenizer",
+      "weight": 1
+    }
+  ]
+}

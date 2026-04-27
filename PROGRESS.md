@@ -29,20 +29,40 @@
   - Scans all .py files, parses with ast module, extracts internal imports
   - Result: 1577 internal dependencies across 424 files
   - This is the raw source view (not yet architectural)
-- **Script 2: abstract_modules.py** — module-level abstraction (IN PROGRESS)
+- **Script 2: abstract_modules.py** — module-level abstraction (DONE)
   - Aggregates file-level deps along folder hierarchy
   - Configurable depth (depth 1 = top-level, depth 2 = sub-packages)
-  - Waiting to run and compare depth 1 vs depth 2
+  - Depth 1 results: 8 modules, 13 dependencies. api->core dominates (weight 322)
+  - Depth 2 results: 54 modules, 192 dependencies. api.endpoints->core.model dominates (weight 174)
+  - Found potential issue: core->api dependency (weight 1) goes "wrong" direction
+  - Decision: use depth 1 as main view in report, depth 2 as supporting detail
 
 ### Decisions made
 - Pick one system (Zeeguu-API) instead of both — report is only 3-4 pages
 - Module view as primary viewpoint, evolutionary analysis as secondary
 - Start from course Colab notebooks approach, adapt into own scripts
 - Use AST over regex for reliability (as recommended in Lecture 1)
+- Use depth 1 for the main architectural view, depth 2 for zooming in
+
+- **Script 3: churn_analysis.py** — evolutionary hotspots (DONE)
+  - File-level: article.py (142), user.py (132), article_downloader.py (114) are top hotspots
+  - Depth 1: core (3448) vs api (1394) — 70% of work happens in core
+  - Depth 2: core.model (1508) is the mega-hotspot, core.audio_lessons (139) and core.llm_services (94) are active new features
+
+- **Script 4: logical_coupling.py** — implicit dependencies (DONE)
+  - File-level: elastic_recommender <-> elastic_query_builder (35) is top pair — implicit contract
+  - friends endpoint <-> friend model (34) — cross-layer coupling
+  - Depth 1: api <-> core dominates (1936)
+  - Depth 2: core.model appears in almost every pair. core.model <-> core.user_statistics (466) is surprisingly strong
+  - Finding: core.sql tightly coupled to core.model (152) — raw SQL queries depend on model structure
+
+### Key findings so far
+- core.model is the gravitational center — highest churn, most dependencies, most coupling
+- api->core is the main artery (322 imports, 1936 co-changes)
+- core->api (weight 1) is a small dependency going the "wrong" direction
+- core.user_statistics is unexpectedly tightly coupled to core.model
+- elastic_recommender and elastic_query_builder have strong implicit coupling
 
 ### Still to do
-- Run abstract_modules.py at depth 1 and 2
-- Script 3: Churn & hotspot analysis
-- Script 4: Logical coupling analysis
-- Generate visualisations
+- Generate visualisations (module graph with churn overlay)
 - Write methodology, results, and discussion sections

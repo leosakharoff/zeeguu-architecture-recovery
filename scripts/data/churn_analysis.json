@@ -1,0 +1,2689 @@
+{
+  "since": null,
+  "file_churn": [
+    {
+      "file": "zeeguu/core/model/article.py",
+      "commits": 142
+    },
+    {
+      "file": "zeeguu/core/model/user.py",
+      "commits": 132
+    },
+    {
+      "file": "zeeguu/core/content_retriever/article_downloader.py",
+      "commits": 114
+    },
+    {
+      "file": "zeeguu/api/endpoints/translation.py",
+      "commits": 99
+    },
+    {
+      "file": "zeeguu/core/model/bookmark.py",
+      "commits": 99
+    },
+    {
+      "file": "zeeguu/core/model/__init__.py",
+      "commits": 76
+    },
+    {
+      "file": "zeeguu/core/content_recommender/elastic_recommender.py",
+      "commits": 76
+    },
+    {
+      "file": "zeeguu/core/model/friend.py",
+      "commits": 69
+    },
+    {
+      "file": "zeeguu/api/endpoints/user.py",
+      "commits": 64
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/basicSR/basicSR.py",
+      "commits": 63
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/daily_lesson_generator.py",
+      "commits": 61
+    },
+    {
+      "file": "zeeguu/core/elastic/elastic_query_builder.py",
+      "commits": 61
+    },
+    {
+      "file": "zeeguu/api/endpoints/friends.py",
+      "commits": 59
+    },
+    {
+      "file": "zeeguu/api/app.py",
+      "commits": 56
+    },
+    {
+      "file": "zeeguu/core/emailer/zeeguu_mailer.py",
+      "commits": 55
+    },
+    {
+      "file": "zeeguu/core/model/user_article.py",
+      "commits": 54
+    },
+    {
+      "file": "zeeguu/core/model/video.py",
+      "commits": 50
+    },
+    {
+      "file": "zeeguu/api/endpoints/bookmarks_and_words.py",
+      "commits": 46
+    },
+    {
+      "file": "zeeguu/api/endpoints/exercises.py",
+      "commits": 46
+    },
+    {
+      "file": "zeeguu/core/elastic/indexing.py",
+      "commits": 46
+    },
+    {
+      "file": "zeeguu/api/endpoints/article.py",
+      "commits": 40
+    },
+    {
+      "file": "zeeguu/core/model/user_word.py",
+      "commits": 40
+    },
+    {
+      "file": "zeeguu/core/model/user_activitiy_data.py",
+      "commits": 40
+    },
+    {
+      "file": "zeeguu/api/endpoints/feature_toggles.py",
+      "commits": 39
+    },
+    {
+      "file": "zeeguu/core/test/test_bookmark.py",
+      "commits": 36
+    },
+    {
+      "file": "zeeguu/core/user_feature_toggles.py",
+      "commits": 35
+    },
+    {
+      "file": "zeeguu/core/model/language.py",
+      "commits": 35
+    },
+    {
+      "file": "zeeguu/core/emailer/user_activity.py",
+      "commits": 34
+    },
+    {
+      "file": "zeeguu/api/endpoints/daily_streak.py",
+      "commits": 33
+    },
+    {
+      "file": "zeeguu/core/model/user_language.py",
+      "commits": 33
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_articles.py",
+      "commits": 31
+    },
+    {
+      "file": "zeeguu/api/endpoints/badges.py",
+      "commits": 29
+    },
+    {
+      "file": "zeeguu/api/utils/route_wrappers.py",
+      "commits": 29
+    },
+    {
+      "file": "zeeguu/api/endpoints/audio_lessons.py",
+      "commits": 29
+    },
+    {
+      "file": "zeeguu/api/endpoints/search.py",
+      "commits": 29
+    },
+    {
+      "file": "zeeguu/core/account_management/user_account_creation.py",
+      "commits": 28
+    },
+    {
+      "file": "zeeguu/api/endpoints/generated_examples.py",
+      "commits": 28
+    },
+    {
+      "file": "zeeguu/api/endpoints/speech.py",
+      "commits": 28
+    },
+    {
+      "file": "zeeguu/core/content_cleaning/content_cleaner.py",
+      "commits": 26
+    },
+    {
+      "file": "zeeguu/core/model/user_exercise_session.py",
+      "commits": 25
+    },
+    {
+      "file": "zeeguu/api/test/fixtures.py",
+      "commits": 25
+    },
+    {
+      "file": "zeeguu/core/model/friend_request.py",
+      "commits": 24
+    },
+    {
+      "file": "zeeguu/api/endpoints/__init__.py",
+      "commits": 24
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/script_generator.py",
+      "commits": 24
+    },
+    {
+      "file": "zeeguu/core/model/meaning.py",
+      "commits": 24
+    },
+    {
+      "file": "zeeguu/core/content_quality/quality_filter.py",
+      "commits": 24
+    },
+    {
+      "file": "zeeguu/core/content_retriever/parse_with_readability_server.py",
+      "commits": 23
+    },
+    {
+      "file": "zeeguu/core/model/text.py",
+      "commits": 22
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/basicSR/four_levels_per_word.py",
+      "commits": 21
+    },
+    {
+      "file": "zeeguu/api/endpoints/activity_tracking.py",
+      "commits": 21
+    },
+    {
+      "file": "zeeguu/core/model/feed.py",
+      "commits": 21
+    },
+    {
+      "file": "zeeguu/core/test/test_retrieve_and_compute.py",
+      "commits": 20
+    },
+    {
+      "file": "zeeguu/core/bookmark_quality/negative_qualities.py",
+      "commits": 20
+    },
+    {
+      "file": "zeeguu/core/tokenization/stanza_tokenizer.py",
+      "commits": 20
+    },
+    {
+      "file": "zeeguu/core/youtube_api/youtube_api.py",
+      "commits": 20
+    },
+    {
+      "file": "zeeguu/api/test/test_friends.py",
+      "commits": 19
+    },
+    {
+      "file": "zeeguu/core/semantic_search/elastic_semantic_search.py",
+      "commits": 19
+    },
+    {
+      "file": "zeeguu/api/endpoints/accounts.py",
+      "commits": 18
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_stats.py",
+      "commits": 18
+    },
+    {
+      "file": "zeeguu/core/test/test_feed.py",
+      "commits": 18
+    },
+    {
+      "file": "zeeguu/api/utils/translator.py",
+      "commits": 18
+    },
+    {
+      "file": "zeeguu/core/test/test_tokenizer.py",
+      "commits": 18
+    },
+    {
+      "file": "zeeguu/core/content_retriever/video_dowloader.py",
+      "commits": 18
+    },
+    {
+      "file": "zeeguu/api/test/test_bookmark.py",
+      "commits": 17
+    },
+    {
+      "file": "zeeguu/core/model/user_reading_session.py",
+      "commits": 17
+    },
+    {
+      "file": "zeeguu/core/model/yt_channel.py",
+      "commits": 17
+    },
+    {
+      "file": "zeeguu/core/model/daily_audio_lesson.py",
+      "commits": 16
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_preferences.py",
+      "commits": 16
+    },
+    {
+      "file": "zeeguu/core/model/bookmark_context.py",
+      "commits": 16
+    },
+    {
+      "file": "zeeguu/core/model/user_preference.py",
+      "commits": 16
+    },
+    {
+      "file": "zeeguu/core/llm_services/simplification_and_classification.py",
+      "commits": 15
+    },
+    {
+      "file": "zeeguu/api/endpoints/helpers/activity_sessions.py",
+      "commits": 15
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/voice_synthesizer.py",
+      "commits": 15
+    },
+    {
+      "file": "zeeguu/core/test/test_scheduling.py",
+      "commits": 15
+    },
+    {
+      "file": "zeeguu/api/test/test_bookmarks.py",
+      "commits": 15
+    },
+    {
+      "file": "zeeguu/core/definition_of_learned/is_learned.py",
+      "commits": 15
+    },
+    {
+      "file": "zeeguu/api/api/user.py",
+      "commits": 15
+    },
+    {
+      "file": "zeeguu/core/model/badge.py",
+      "commits": 14
+    },
+    {
+      "file": "zeeguu/api/test/test_article.py",
+      "commits": 14
+    },
+    {
+      "file": "zeeguu/core/test/mocking_the_web.py",
+      "commits": 14
+    },
+    {
+      "file": "zeeguu/core/model/context_type.py",
+      "commits": 14
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/article_management.py",
+      "commits": 14
+    },
+    {
+      "file": "zeeguu/core/test/test_friends.py",
+      "commits": 13
+    },
+    {
+      "file": "zeeguu/core/badges/badge_progress.py",
+      "commits": 13
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/voice_config.py",
+      "commits": 13
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_article.py",
+      "commits": 13
+    },
+    {
+      "file": "zeeguu/core/feed_handler/newspaperfeed.py",
+      "commits": 13
+    },
+    {
+      "file": "zeeguu/core/sql/learner/exercises_history.py",
+      "commits": 13
+    },
+    {
+      "file": "zeeguu/core/user_statistics/reading_sessions.py",
+      "commits": 13
+    },
+    {
+      "file": "zeeguu/api/api/speech.py",
+      "commits": 13
+    },
+    {
+      "file": "zeeguu/core/llm_services/validation_service.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/test/test_article.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/model/article_tokenization_cache.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/tokenization/token.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/api/endpoints/own_texts.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/content_retriever/__init__.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/model/video_title_context.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/test/rules/bookmark_rule.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/user_statistics/exercise_sessions.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/test/rules/article_rule.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/api/endpoints/topics.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/api/api/feature_toggles.py",
+      "commits": 12
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/lesson_builder.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/model/audio_lesson_meaning.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/model/meaning_frequency_classifier.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/model/exercise.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/user_statistics/exercise_corectness.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/model/user_video.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/util/__init__.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/basicSR/levels_SR.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/nlp_pipeline/automatic_gec_tagging.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/api/api/exercises.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/api/api/article.py",
+      "commits": 11
+    },
+    {
+      "file": "zeeguu/core/test/test_user.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/llm_services/simplification_service.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/bookmark_quality/fit_for_study.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/llm_services/prompts/article_simplification.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/llm_services/prompts/translation_validator.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/feed_handler/rssfeed.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/operations/crawler/crawl.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/model/topic.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/cohorts.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/language/strategies/flesch_kincaid_difficulty_estimator.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/exercises/similar_words.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/crowd_translations/__init__.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/model/sorted_exercise_log.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/model/personal_copy.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/api/test/test_user_article.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/api/api/nlp.py",
+      "commits": 10
+    },
+    {
+      "file": "zeeguu/core/account_management/user_account_deletion.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/model/badge_level.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/model/user_badge_level.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/api/endpoints/reading_sessions.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/api/endpoints/exercise_sessions.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/api/test/test_account_creation.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/model/audio_lesson_generation_progress.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/api/endpoints/sessions.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/user_statistics/activity.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/test/model_test_mixin.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/mwe/__init__.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/mwe/detector.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/model/source.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/model/caption.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/model/new_text.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/util/text.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/basicSR/learning_cycle_SR.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/test/test_lingorank_service.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/core/test/test_data/mocking_the_web.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/api/api/translation.py",
+      "commits": 9
+    },
+    {
+      "file": "zeeguu/api/test/test_badges.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/badges/listeners.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/user_avatar.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/util/time.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/audio_lesson_dialogue.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/exercise_outcome.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/phrase.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/tokenization/__init__.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/api/endpoints/crawl_stats.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/word_selector.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/article_broken_code_map.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/article_fragment_context.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/article_title_context.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/sql/learner/words.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/article_fragment.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/semantic_vector_api/__init__.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/api/api/own_texts.py",
+      "commits": 8
+    },
+    {
+      "file": "zeeguu/core/model/activity_type.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/api/endpoints/article_upload.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/api/test/test_exercise_session.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/model/unique_code.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/llm_services/translation_validator.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/bookmark_operations/update_bookmark.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/model/search_subscription.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/constants.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/semantic_vector_api/retrieve_embeddings.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/bookmark_quality/positive_qualities.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/model/user_meaning.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/test/rules/exercise_rule.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/model/article_difficulty_feedback.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/model/teacher.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/content_recommender/__init__.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/model/topic_keyword.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/core/user_activity_hooks/article_interaction_hooks.py",
+      "commits": 7
+    },
+    {
+      "file": "zeeguu/api/endpoints/leaderboards.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/leaderboards/leaderboards.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/model/article_upload.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/endpoints/listening_sessions.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/endpoints/browsing_sessions.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/model/cohort.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/test/test_domain.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/model/user_watching_session.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/__init__.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/endpoints/session_history.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/model/url_keyword.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/student.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/llm_services/article_simplification.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/test/test_user_word.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/model/search.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_notifications.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/bookmark_quality/top_bookmarks_for_user.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/semantic_search/__init__.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/endpoints/nlp.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/model/new_topic.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/config/loader.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/core/content_recommender/elastic_first_recommender.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/api/user_articles.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/cohorts.py",
+      "commits": 6
+    },
+    {
+      "file": "zeeguu/api/test/test_username.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/friends/listeners.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_watching_session.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/user_browsing_session.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/api/utils/__init__.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/suggestion_validator.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/general.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/api/test/test_teacher_dashboard.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/translation_services/translator.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/tokenization/stanza_client.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/language/mwe_detector.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/cohort_article_map.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/operations/crawler/crawl_roundrobin.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/logging/__init__.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/nlp_pipeline/spacy_wrapper.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/example_generation/llm_service.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/video_caption_context.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/article_management.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/search_filter.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/session.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/source_text.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/teacher_cohort_map.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/topic_filter.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/topic_subscription.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/video_tag.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/model/word_to_study.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/adaptive/scheduling_algo.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_video.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/test/rules/language_rule.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/config/__init__.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/tokenization/tokenizer.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/test/test_localized_topic.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/feed_handler/feed_handler.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/test/test_reading_session.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/test/rules/rss_feed_rule.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/test/test_exercise_session.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/nlp_pipeline/__init__.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/api/test/test_user_articles.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/nlp_pipeline/confusion_generator.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/api/api/user_article.py",
+      "commits": 5
+    },
+    {
+      "file": "zeeguu/core/llm_services/anthropic_service.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_languages.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/translation_search.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/util/hash.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/llm_services/prompts/example_generation.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/operations/crawler/crawl_report.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/operations/report_generator/generate_report.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/tokenization/word_position_finder.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/test/test_mwe_detector.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/mwe/stanza_mwe_detector.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/mwe/strategies.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/grammar_correction_log.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/content_simplifier.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/elastic/basic_ops.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/student_exercises.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/student_overviews.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/student_readings.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/student_words.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/article_topic_map.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/article_topic_user_feedback.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/source_type.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/starred_article.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/url.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/video_tag_map.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/sql/query_building.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/test/test_user_preferences.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/bookmark_quality/__init__.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/definition_of_learned/__init__.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/elastic/settings.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/test/rules/user_article_rule.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/test/test_user_article.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/test/test_language.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/sql/teacher/teachers_for_cohort.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/ml_models/paywall_detector.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/test/test_url.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/api/test/api_test_mixin.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/api/api/__init__.py",
+      "commits": 4
+    },
+    {
+      "file": "zeeguu/core/model/user_badge_progress.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/test_app.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/rules/user_rule.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/user_badge.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/llm_services/llm_service.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/bookmark_user_preference.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/conftest.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/feedback_component.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/rules/feed_rule.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/util/compute_fk_word_count.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/mwe/enricher.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/llm_services/mwe_translation_service.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/mwe/llm_strategy.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/content_retriever/crawler_exceptions.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/tokenization/zeeguu_tokenizer.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/content_retriever/parse_with_newspaper.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/llm_services/prompts/meaning_frequency_classifier.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/behavioral_modeling/scroll_last_reading_percentage.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/example_generation/prompts.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/prompts/meaning_frequency_classifier.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/rules/scheduler_rule.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/difficulty_lingo_rank.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/domain_name.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/exercise_source.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/notification.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/user_feedback.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/user_notification.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/video_topic_map.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/rules/base_rule.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/user_statistics/student_overview.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/learning_cycle.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/language/strategies/word_history_difficulty_estimator.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/rules/text_rule.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/test_text.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/rules/source_rule.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/boomark_context.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/plaintext.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/localized_topic.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/new_topic_subscription.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/article_topic_keyword_map.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/endpoints/student.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/_permissions.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/content_cleaning/__init__.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/endpoints/system_languages.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/ml_models/__init__.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/ml_models/utils.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/test/zz_teacher_dashboard.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/test/test_user_data.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/test/zz_session.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/test/zz_bookmark.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/testing_data.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/test/test_translations.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/test/test_words_to_study.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/configuration/configuration.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/content_retriever/url_downloader.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/content_recommender/mysql_recommender.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/api/recommendations.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/nlp_pipeline/confusion_set.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/elastic/converting_from_mysql.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/api/accounts.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/api/activity_tracking.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/api/api/user_languages.py",
+      "commits": 3
+    },
+    {
+      "file": "zeeguu/core/model/friendship.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_browsing_session.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/daily_audio_lesson_segment.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/utils/rate_limiter.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/operations/report_generator/data_extractor.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/exercise_report.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/meaning_report.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/_session_data.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/language/difficulty_estimator_factory.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/utils/caching_decorator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/user_listening_session.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/operations/crawler/article_crawler.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/operations/crawler/video_crawler.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/utils/json_result.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/utils/azure_alignment_translator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/llm_services/deepseek_service.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/operations/crawl_summary/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/operations/crawler/feed_retrieval.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/content_cleaning/unicode_normalization.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_bookmark_positions.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/ai_generator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/language/ml_cefr_classifier.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/content_quality/disturbing_content_detection.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/article_summary_context.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/context_identifier.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/example_generation/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/endpoints/article_simplification.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/ai_model.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/user_word_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/user_meaning_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_reading_session.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/article_url_keyword_map.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/user_cohort_map.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/basicSR/two_learning_cycles_per_word.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/language/strategies/cognacy_difficulty_estimator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/language/strategies/cognacy_wh_difficulty_estimator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/cohort_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/bookmark_context_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/exercise_source_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/source_text_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/util/reading_time_estimator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/context.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/behavioral_modeling/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/tokenization/nltk_tokenizer.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/topic_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/new_topic_filter.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/test_topic_keywords.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/util/list.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/_common_api_parameters.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/helpers.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/_only_teachers_decorator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/endpoints/user_statistics.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/new_article_topic_map.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/semantic_vector/sentence_bert.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/content_retriever/parse_with_readabilipy.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/feed_handler/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/cl/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/sql/learner/exercise_duration_by_day.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/zz_user_article.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/zz_user_articles.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/test_data/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/__main__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/watch_event_type_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/rules/watch_interaction_event_rule.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/util/timer_logging_decorator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/test_cohort.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/configuration/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/test_logging.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/zz_article.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/mocks/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/mocks/mock_translator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_architectural_conventions.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_smartwatch_events.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_system_settings.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_user_languages.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_user_login.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/learner_stats/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/word_knowledge/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/word_knowledge/word_interaction_history.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/bookmark_priority_arts.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/article_word.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/articles_cache.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/api/utils/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/api/smartwatch.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/smartwatch/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/smartwatch/watch_event_type.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/smartwatch/watch_interaction_event.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/test_watch_event.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/nlp_pipeline/reduce_context.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/nlp_pipeline/alignment_errant.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/api/topics.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_stats/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/api/student.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/test/test_words_exercise_stats.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/ab_testing.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/algorithm_wrapper.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/analysis/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/analysis/normal_distribution.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/arts_base.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/arts_rt.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/bookmark_priority_updater.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/experiments/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/experiments/arts_diff_fast.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/experiments/arts_diff_slow.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/experiments/arts_random.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/tools/__init__.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/tools/algo_parameter_approximator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/arts/words_to_study.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/learner_stats/exercise_stats.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/content_retriever/content_cleaner.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/learner_stats/encounter_stats.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/learner_stats/encounter_stats_update.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/ranked_word.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/api/translator.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/api/search.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/api/sessions.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/api/feeds.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/api/test/test_feeds.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/model/feed_registrations.py",
+      "commits": 2
+    },
+    {
+      "file": "zeeguu/core/friends/friend_streak.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/badge_category.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/events/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/friends/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/user_metric.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/leaderboards/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/utils/background.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/badges/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/utils/security_checks.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/monthly_activity_stats_cache.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/monthly_active_users_cache.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/llm_services/prompts/learning_card_generator.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/fixtures.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/utils/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/utils/caching.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/user_word_interaction_history.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/test/conftest.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/validation_log.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/emailer/email_confirmation.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/user_mwe_override.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/translation_services/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/translation_services/azure_alignment.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/mwe/llm_mwe_detector.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/operations/monitoring/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/llm_services/grammar_correction_service.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/llm_services/prompts/grammar_correction.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/utils/session_helpers.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/operations/report_generator/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/operations/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/operations/crawl_summary/crawl_report.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/bookmark_operations/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/azure_voice_synthesizer.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/endpoints/article_cefr_recompute.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/endpoints/cefr_assessment.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/article_cefr_assessment.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/article_classification.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/test_user_article_broken_report.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/content_quality/advertorial_detection.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/user_article_broken_report.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/llm_services/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/llm_services/prompts/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/example_sentence.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/example_sentence_context.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/audio_lessons/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/daily_audio_lesson_wrapper.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/db.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/meaning_rule.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/phrase_rule.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/language/fk_to_cefr.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/util/fk_to_cefr.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/new_text_rule.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/util/time_conversion.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/utils/parse_json_boolean.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/test_url_keywords.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/word_filter/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/word_filter/profanity_filter.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/word_filter/proper_noun_filter.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/new_topic_user_feedback.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/semantic_vector/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/semantic_vector/semantic_vector_model.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/endpoints/helpers/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/exercise_session_rule.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/test/test_endpoint_names.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/content_quality/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/endpoints/teacher_dashboard/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/utils/abort_handling.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/utils/feedparser_extensions.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/nlp_pipeline/edit_errant.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/reading_analysis/macro_reading_session.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/user_statistics/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/language/services/lingo_rank_service.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/sql/queries/query_loader.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/word_scheduling/basicSR/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/bookmarks_and_words.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/system_languages.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/_common_api_parameters.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/_only_teachers_decorator.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/_permissions.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/general.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/helpers.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/student.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/student_exercises.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/student_overviews.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/student_readings.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/teacher_dashboard/student_words.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/user_statistics.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/utils/abort_handling.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/utils/feedparser_extensions.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/utils/json_result.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/api/utils/route_wrappers.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/cross_domain_app.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/custom_fmd_graphs.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/api/test/test_session.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/account_management/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/content_recommender/mixed_recommender.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/content_retriever/quality_filter.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/content_retriever/unicode_normalization.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/elastic/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/emailer/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/emailer/password_reset.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/exercises/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/language/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/language/difficulty_estimator_strategy.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/language/strategies/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/language/strategies/default_difficulty_estimator.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/language/strategies/frequency_difficulty_estimator.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/language/strategies/word_rank_difficulty_estimator.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/SortedExerciseLog.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/model/learner_stats/learner_stats.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/sql/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/sql/learner/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/sql/teacher/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/outcome_rule.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/url_rule.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/user_exercise_session_rule.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/rules/user_reading_session_rule.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/test_difficulty_estimator_factory.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/tests_difficulty_estimator_strategies/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/tests_difficulty_estimator_strategies/test_default_difficulty_estimator.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/tests_difficulty_estimator_strategies/test_flesch_kincaid_difficulty_estimator.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/test/tests_difficulty_estimator_strategies/test_frequency_difficulty_estimator.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/user_activity_hooks/__init__.py",
+      "commits": 1
+    },
+    {
+      "file": "zeeguu/core/util/encoding.py",
+      "commits": 1
+    }
+  ],
+  "module_churn_depth1": [
+    {
+      "module": "zeeguu.core",
+      "commits": 3448
+    },
+    {
+      "module": "zeeguu.api",
+      "commits": 1394
+    },
+    {
+      "module": "zeeguu.operations",
+      "commits": 37
+    },
+    {
+      "module": "zeeguu.config",
+      "commits": 11
+    },
+    {
+      "module": "zeeguu.logging",
+      "commits": 5
+    },
+    {
+      "module": "zeeguu.cl",
+      "commits": 2
+    },
+    {
+      "module": "zeeguu.__init__",
+      "commits": 1
+    }
+  ],
+  "module_churn_depth2": [
+    {
+      "module": "zeeguu.core.model",
+      "commits": 1508
+    },
+    {
+      "module": "zeeguu.api.endpoints",
+      "commits": 906
+    },
+    {
+      "module": "zeeguu.core.test",
+      "commits": 358
+    },
+    {
+      "module": "zeeguu.api.test",
+      "commits": 191
+    },
+    {
+      "module": "zeeguu.core.content_retriever",
+      "commits": 182
+    },
+    {
+      "module": "zeeguu.api.api",
+      "commits": 170
+    },
+    {
+      "module": "zeeguu.core.word_scheduling",
+      "commits": 148
+    },
+    {
+      "module": "zeeguu.core.audio_lessons",
+      "commits": 139
+    },
+    {
+      "module": "zeeguu.core.elastic",
+      "commits": 119
+    },
+    {
+      "module": "zeeguu.core.llm_services",
+      "commits": 94
+    },
+    {
+      "module": "zeeguu.core.content_recommender",
+      "commits": 93
+    },
+    {
+      "module": "zeeguu.core.emailer",
+      "commits": 92
+    },
+    {
+      "module": "zeeguu.api.utils",
+      "commits": 66
+    },
+    {
+      "module": "zeeguu.core.tokenization",
+      "commits": 59
+    },
+    {
+      "module": "zeeguu.api.app",
+      "commits": 56
+    },
+    {
+      "module": "zeeguu.core.user_statistics",
+      "commits": 49
+    },
+    {
+      "module": "zeeguu.core.bookmark_quality",
+      "commits": 47
+    },
+    {
+      "module": "zeeguu.core.util",
+      "commits": 44
+    },
+    {
+      "module": "zeeguu.core.account_management",
+      "commits": 38
+    },
+    {
+      "module": "zeeguu.core.user_feature_toggles",
+      "commits": 35
+    },
+    {
+      "module": "zeeguu.core.sql",
+      "commits": 35
+    },
+    {
+      "module": "zeeguu.core.language",
+      "commits": 34
+    },
+    {
+      "module": "zeeguu.core.nlp_pipeline",
+      "commits": 34
+    },
+    {
+      "module": "zeeguu.core.mwe",
+      "commits": 33
+    },
+    {
+      "module": "zeeguu.core.content_cleaning",
+      "commits": 31
+    },
+    {
+      "module": "zeeguu.core.feed_handler",
+      "commits": 30
+    },
+    {
+      "module": "zeeguu.core.content_quality",
+      "commits": 28
+    },
+    {
+      "module": "zeeguu.operations.crawler",
+      "commits": 25
+    },
+    {
+      "module": "zeeguu.core.semantic_search",
+      "commits": 25
+    },
+    {
+      "module": "zeeguu.core.badges",
+      "commits": 22
+    },
+    {
+      "module": "zeeguu.core.youtube_api",
+      "commits": 20
+    },
+    {
+      "module": "zeeguu.core.definition_of_learned",
+      "commits": 19
+    },
+    {
+      "module": "zeeguu.core.semantic_vector_api",
+      "commits": 15
+    },
+    {
+      "module": "zeeguu.core.exercises",
+      "commits": 11
+    },
+    {
+      "module": "zeeguu.core.example_generation",
+      "commits": 10
+    },
+    {
+      "module": "zeeguu.core.crowd_translations",
+      "commits": 10
+    },
+    {
+      "module": "zeeguu.core.ml_models",
+      "commits": 10
+    },
+    {
+      "module": "zeeguu.core.bookmark_operations",
+      "commits": 8
+    },
+    {
+      "module": "zeeguu.core.user_activity_hooks",
+      "commits": 8
+    },
+    {
+      "module": "zeeguu.core.friends",
+      "commits": 7
+    },
+    {
+      "module": "zeeguu.core.leaderboards",
+      "commits": 7
+    },
+    {
+      "module": "zeeguu.operations.report_generator",
+      "commits": 7
+    },
+    {
+      "module": "zeeguu.core.translation_services",
+      "commits": 7
+    },
+    {
+      "module": "zeeguu.core.constants",
+      "commits": 7
+    },
+    {
+      "module": "zeeguu.config.loader",
+      "commits": 6
+    },
+    {
+      "module": "zeeguu.logging.__init__",
+      "commits": 5
+    },
+    {
+      "module": "zeeguu.core.behavioral_modeling",
+      "commits": 5
+    },
+    {
+      "module": "zeeguu.config.__init__",
+      "commits": 5
+    },
+    {
+      "module": "zeeguu.core.configuration",
+      "commits": 5
+    },
+    {
+      "module": "zeeguu.core.content_simplifier",
+      "commits": 4
+    },
+    {
+      "module": "zeeguu.core.semantic_vector",
+      "commits": 4
+    },
+    {
+      "module": "zeeguu.operations.crawl_summary",
+      "commits": 3
+    },
+    {
+      "module": "zeeguu.core.prompts",
+      "commits": 3
+    },
+    {
+      "module": "zeeguu.core.word_filter",
+      "commits": 3
+    },
+    {
+      "module": "zeeguu.core.utils",
+      "commits": 2
+    },
+    {
+      "module": "zeeguu.cl.__init__",
+      "commits": 2
+    },
+    {
+      "module": "zeeguu.api.__main__",
+      "commits": 2
+    },
+    {
+      "module": "zeeguu.core.__init__",
+      "commits": 2
+    },
+    {
+      "module": "zeeguu.core.word_stats",
+      "commits": 2
+    },
+    {
+      "module": "zeeguu.core.events",
+      "commits": 1
+    },
+    {
+      "module": "zeeguu.operations.monitoring",
+      "commits": 1
+    },
+    {
+      "module": "zeeguu.operations.__init__",
+      "commits": 1
+    },
+    {
+      "module": "zeeguu.core.reading_analysis",
+      "commits": 1
+    },
+    {
+      "module": "zeeguu.__init__",
+      "commits": 1
+    },
+    {
+      "module": "zeeguu.api.__init__",
+      "commits": 1
+    },
+    {
+      "module": "zeeguu.api.cross_domain_app",
+      "commits": 1
+    },
+    {
+      "module": "zeeguu.api.custom_fmd_graphs",
+      "commits": 1
+    }
+  ]
+}

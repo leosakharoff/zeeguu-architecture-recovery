@@ -69,6 +69,11 @@ def is_internal(module_name):
 
 
 def main():
+    if not PACKAGE_ROOT.is_dir():
+        raise SystemExit(
+            f"error: {PACKAGE_ROOT} not found. "
+            f"Clone zeeguu/API into {REPO_ROOT} first (see README)."
+        )
     print(f"Scanning: {PACKAGE_ROOT}")
     py_files = get_python_files(PACKAGE_ROOT)
     print(f"Found {len(py_files)} Python files\n")
